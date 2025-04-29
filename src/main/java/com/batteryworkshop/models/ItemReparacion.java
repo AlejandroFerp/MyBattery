@@ -1,44 +1,128 @@
 package com.batteryworkshop.models;
 
 import jakarta.persistence.*;
+import java.math.BigDecimal;
+import java.util.Objects;
 
 /**
- * Ítem usado durante una reparación (como BMS, carcasa o celdas).
- * Cada ítem tiene un precio que se suma al total del reporte.
+ * Representa un ítem utilizado durante una reparación de batería.
+ * Cada ítem tiene un nombre identificativo y un precio que se suma al total del reporte.
+ * Los ítems pueden ser componentes como BMS, carcasa o celdas.
+ *
+ * @since 1.0
  */
 @Entity
+@Table(name = "item_reparacion")
 public class ItemReparacion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private final Long id;
 
     /**
-     * Nombre del ítem (ej: "BMS", "Carcasa", "Celdas").
+     * Nombre identificativo del ítem.
      */
-    private String nombre;
+    @Column(nullable = false, length = 100)
+    private final String nombre;
 
     /**
-     * Precio del ítem individual, usado para calcular el total del reporte.
+     * Precio del ítem individual en la moneda base.
      */
-    private float precio;
+    @Column(nullable = false, precision = 10, scale = 2)
+    private final BigDecimal precio;
 
     /**
-     * Reporte al cual pertenece este ítem.
+     * Reporte al cual está asociado este ítem.
      */
-    @ManyToOne
-    private Reporte reporte;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "reporte_id", nullable = false)
+    private RepairReport reporte;
 
-    // Getters y Setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    /**
+     * Constructor protegido requerido por JPA.
+     */
+    protected ItemReparacion() {
+        this.id = null;
+        this.nombre = null;
+        this.precio = null;
+        this.reporte = null;
+    }
 
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
+    /**
+     * Crea una nueva instancia de ItemReparacion.
+     *
+     * @param nombre  nombre del ítem (no puede ser null o vacío)
+     * @param precio  precio del ítem (no puede ser null o negativo)
+     * @param reporte reporte asociado al ítem (no puede ser null)
+     * @throws IllegalArgumentException si algún parámetro es inválido
+     */
+    public ItemReparacion(String nombre, BigDecimal precio, RepairReport reporte) {
+        if (nombre == null || nombre.trim().isEmpty()) {
+            throw new IllegalArgumentException("El nombre no puede ser null o vacío");
+        }
+        if (precio == null || precio.compareTo(BigDecimal.ZERO) < 0) {
+            throw new IllegalArgumentException("El precio no puede ser null o negativo");
+        }
+        if (reporte == null) {
+            throw new IllegalArgumentException("El reporte no puede ser null");
+        }
 
-    public float getPrecio() { return precio; }
-    public void setPrecio(float precio) { this.precio = precio; }
+        this.id = null;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.reporte = reporte;
+    }
 
-    public Reporte getReporte() { return reporte; }
-    public void setReporte(Reporte reporte) { this.reporte = reporte; }
+    /**
+     * Obtiene el identificador único del ítem.
+     *
+     * @return el ID del ítem
+     */
+    public Long getId() {
+        return id;
+    }
+
+    /**
+     * Obtiene el nombre del ítem.
+     *
+     * @return el nombre del ítem
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Obtiene el precio del ítem.
+     *
+     * @return el precio del ítem
+     */
+    public BigDecimal getPrecio() {
+        return precio;
+    }
+
+    /**
+     * Obtiene el reporte asociado al ítem.
+     *
+     * @return el reporte asociado
+     */
+    public RepairReport getReporte() {
+        return reporte;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ItemReparacion that = (ItemReparacion) o;
+        return Objects.equals(id, that.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+    public void setReporte(RepairReport repairReport) {
+        this.reporte=repairReport;
+    }
 }

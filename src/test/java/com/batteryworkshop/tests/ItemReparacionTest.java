@@ -1,38 +1,55 @@
 package com.batteryworkshop.tests;
 
 import com.batteryworkshop.models.ItemReparacion;
-import com.batteryworkshop.models.Reporte;
+import com.batteryworkshop.models.RepairReport;
 import org.junit.jupiter.api.Test;
+
+import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Pruebas unitarias de la clase ItemReparacion.
+ * Pruebas unitarias para validar el comportamiento de ItemReparacion.
  */
 public class ItemReparacionTest {
 
-    @Test
-    public void testCrearItem() {
-        ItemReparacion item = new ItemReparacion();
-        item.setNombre("BMS");
-        item.setPrecio(15.0f);
+    private static final String NOMBRE_BMS = "BMS";
+    private static final String NOMBRE_CARCASA = "Carcasa";
+    private static final BigDecimal PRECIO_BMS = new BigDecimal("15.00");
+    private static final BigDecimal PRECIO_CARCASA = new BigDecimal("20.00");
+    private static final String ESTADO_EN_PROCESO = "en_proceso";
 
-        assertEquals("BMS", item.getNombre());
-        assertEquals(15.0f, item.getPrecio(), 0.001);
+    /**
+     * Verifica la creación correcta de un ItemReparacion con sus propiedades básicas.
+     */
+    @Test
+    public void deberiaCrearItemConPropiedadesBasicas() {
+        RepairReport reporte = new RepairReport();
+        ItemReparacion item = crearItem(NOMBRE_BMS, PRECIO_BMS, reporte);
+
+        assertEquals(NOMBRE_BMS, item.getNombre(), "El nombre del ítem debe coincidir");
+        assertEquals(PRECIO_BMS, item.getPrecio(), "El precio del ítem debe coincidir");
     }
 
+    /**
+     * Verifica la correcta asociación entre un ItemReparacion y su RepairReport.
+     */
     @Test
-    public void testAsociarConReporte() {
-        Reporte reporte = new Reporte();
-        reporte.setEstado("en_proceso");
+    public void deberiaAsociarItemConReporteCorrectamente() {
+        RepairReport reporte = new RepairReport();
+        reporte.setEstado(ESTADO_EN_PROCESO);
 
-        ItemReparacion item = new ItemReparacion();
-        item.setNombre("Carcasa");
-        item.setPrecio(20.0f);
-        item.setReporte(reporte);
+        ItemReparacion item = crearItem(NOMBRE_CARCASA, PRECIO_CARCASA, reporte);
 
-        assertNotNull(item.getReporte());
-        assertEquals("en_proceso", item.getReporte().getEstado());
-        assertEquals("Carcasa", item.getNombre());
+        assertNotNull(item.getReporte(), "El reporte no debe ser null");
+        assertEquals(ESTADO_EN_PROCESO, item.getReporte().getEstado(), "El estado del reporte debe coincidir");
+        assertEquals(NOMBRE_CARCASA, item.getNombre(), "El nombre del ítem debe coincidir");
+    }
+
+    /**
+     * Crea un nuevo ItemReparacion para pruebas.
+     */
+    private ItemReparacion crearItem(String nombre, BigDecimal precio, RepairReport reporte) {
+        return new ItemReparacion(nombre, precio, reporte);
     }
 }

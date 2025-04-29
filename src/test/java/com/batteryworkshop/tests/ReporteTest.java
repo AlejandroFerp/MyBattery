@@ -1,90 +1,135 @@
 package com.batteryworkshop.tests;
 
-import com.batteryworkshop.models.Battery;
-import com.batteryworkshop.models.Reporte;
-import com.batteryworkshop.models.ItemReparacion;
-
-import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.math.BigDecimal;
+import java.util.Arrays;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import com.batteryworkshop.models.Battery;
+import com.batteryworkshop.models.RepairReport;
+
 /**
- * Pruebas unitarias de la entidad Reporte.
+ * Pruebas unitarias para la clase RepairReport.
+ * Verifica el correcto funcionamiento de la creación y gestión de reportes de reparación.
  */
 public class ReporteTest {
 
-    @Test
-    public void testCrearReporteBasico() {
-        Reporte reporte = new Reporte();
-        reporte.setPasoActual(2);
-        reporte.setEstado("en_proceso");
-        reporte.setAprobadoPorCliente(true);
-        reporte.setCosteExtra(10f);
-        reporte.setMotivoExtra("carcasa dañada");
-        reporte.setTotal(75f);
+    /**
+     * Batería de prueba utilizada en los tests
+     */
+    private Battery testBattery;
 
-        assertEquals(2, reporte.getPasoActual());
-        assertEquals("en_proceso", reporte.getEstado());
-        assertTrue(reporte.isAprobadoPorCliente());
-        assertEquals(10f, reporte.getCosteExtra());
-        assertEquals("carcasa dañada", reporte.getMotivoExtra());
-        assertEquals(75f, reporte.getTotal());
+    /**
+     * Reporte de prueba utilizado en los tests
+     */
+    private RepairReport report;
+
+    /**
+     * Configura el entorno de pruebas antes de cada test.
+     * Crea una nueva batería y un reporte asociado.
+     */
+    @BeforeEach
+    void setUp() {
+        testBattery = new Battery("Test-Model", "Test Battery", new BigDecimal("100.00"));
+        report = testBattery.addRepairReport();
     }
 
+    /**
+     * Verifica que la creación básica de un reporte sea correcta,
+     * comprobando sus valores iniciales por defecto.
+     */
     @Test
-    public void testReporteConBatteryYItems() {
-        Battery battery = new Battery();
-        battery.setModel("Model-X");
-        battery.setBaseCost(50f);
-
-        ItemReparacion item1 = new ItemReparacion();
-        item1.setNombre("BMS");
-        item1.setPrecio(10f);
-
-        ItemReparacion item2 = new ItemReparacion();
-        item2.setNombre("Carcasa");
-        item2.setPrecio(15f);
-
-        Reporte reporte = new Reporte();
-        reporte.setBattery(battery);
-        reporte.setItems(Arrays.asList(item1, item2));
-        reporte.setCosteExtra(5f);
-        reporte.setTotal(80f); // Simulación manual
-
-        assertEquals("Model-X", reporte.getBattery().getModel());
-        assertEquals(2, reporte.getItems().size());
-        assertEquals(80f, reporte.getTotal());
+    @DisplayName("Test creación básica de un reporte")
+    void testCreacionReporteBasico() {
+        assertNotNull(report);
+        assertEquals(testBattery, report.getBattery());
+        assertEquals(0, report.getCurrentStep());
+        assertEquals("PENDING", report.getEstado());
+        assertFalse(report.isCustomerApproved());
+        assertEquals(BigDecimal.ZERO, report.getExtraCost());
     }
 
+    /**
+     * Comprueba que la actualización del estado, paso actual y
+     * aprobación del cliente se realice correctamente.
+     */
     @Test
-    public void testGetJson() {
-        Battery battery = new Battery();
-        battery.setModel("BAT123");
-        battery.setBaseCost(60f);
+    @DisplayName("Test actualización del estado del reporte")
+    void testActualizacionEstado() {
+        report.setEstado("IN_PROGRESS");
+        report.setPasoActual(2);
+        report.setCustomerApproved(true);
 
-        ItemReparacion item1 = new ItemReparacion();
-        item1.setNombre("BMS");
-        item1.setPrecio(10f);
+        assertEquals("IN_PROGRESS", report.getEstado());
+        assertEquals(2, report.getCurrentStep());
+        assertTrue(report.isCustomerApproved());
+    }
 
-        ItemReparacion item2 = new ItemReparacion();
-        item2.setNombre("Celdas");
-        item2.setPrecio(5f);
+    /**
+     * Verifica que el cálculo del coste total sea correcto
+     * al añadir costes extra y razones adicionales.
+     */
+    @Test
+    @DisplayName("Test cálculo del coste total")
+    void testCalculoCosteTotal() {
+        BigDecimal extraCost = new BigDecimal("50.00");
+        report.setExtraCost(extraCost);
+        report.setExtraReason("Reparación compleja");
 
-        Reporte reporte = new Reporte();
-        reporte.setBattery(battery);
-        reporte.setItems(Arrays.asList(item1, item2));
-        reporte.setCosteExtra(8f);
-        reporte.setMotivoExtra("reparación difícil");
-        reporte.setTotal(83f);
+        BigDecimal expectedTotal = testBattery.getBaseCost().add(extraCost);
+        assertEquals(expectedTotal, report.getTotal());
+        assertEquals("Reparación compleja", report.getExtraReason());
+    }
 
-        String json = reporte.getJson();
+    /**
+     * Comprueba que se lance una excepción al intentar establecer
+     * costes negativos en el reporte.
+     */
+    @Test
+    @DisplayName("Test validación de costes negativos")
+    void testValidacionCostesNegativos() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            report.setExtraCost(new BigDecimal("-10.00"));
+        });
+    }
 
-        assertTrue(json.contains("\"bateria_modelo\": \"BAT123\""));
-        assertTrue(json.contains("\"total\": 83.0"));
-        assertTrue(json.contains("\"nombre\": \"BMS\""));
-        assertTrue(json.contains("\"precio\": 10.0"));
-        assertTrue(json.contains("\"motivo_extra\": \"reparación difícil\""));
+    /**
+     * Verifica que se lance una excepción al intentar establecer
+     * pasos de reparación inválidos (negativos o mayores al máximo permitido).
+     */
+    @Test
+    @DisplayName("Test actualización de pasos inválidos")
+    void testValidacionPasosInvalidos() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            report.setPasoActual(-1);
+        });
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            report.setPasoActual(11); // Asumiendo máximo 10 pasos
+        });
+    }
+
+    /**
+     * Comprueba que la generación del resumen JSON del reporte
+     * incluya todos los campos necesarios con los valores correctos.
+     */
+    @Test
+    @DisplayName("Test generación de informe en JSON")
+    void testGeneracionJson() {
+        report.setPasoActual(2);
+        report.setEstado("IN_PROGRESS");
+        report.setExtraCost(new BigDecimal("25.00"));
+        report.setExtraReason("Componentes adicionales");
+
+        String json = report.generateJsonSummary();
+
+        assertTrue(json.contains("\"bateria_modelo\":\"Test-Model\""));
+        assertTrue(json.contains("\"items\""));
+        assertTrue(json.contains("\"coste_extra\":25.00"));
+        assertTrue(json.contains("\"motivo_extra\":\"Componentes adicionales\""));
     }
 }
