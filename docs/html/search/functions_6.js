@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['generatejsonsummary_0',['generateJsonSummary',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a214cfd32024a6c4b5a0c27b97f4f23b4',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getbasecost_1',['getBaseCost',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#aa067efcc3782b7311a73cb7499a735f9',1,'com::batteryworkshop::models::Battery']]],
+  ['getbattery_2',['getBattery',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a57bdc6b5a72fafbb9a950a65641d2e08',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getcancellationreason_3',['getCancellationReason',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aaa61a26f344a38bceec32b5af88f00fa',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getcurrentstep_4',['getCurrentStep',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aa21e898c8c9a5dcca16d107eecf73c9e',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getdescription_5',['getDescription',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#ab7d3a52347c8cfbdec0038d190a22a13',1,'com::batteryworkshop::models::Battery']]],
+  ['getestado_6',['getEstado',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a0964d69614b9a0789c7d52cdf429f67d',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getextracost_7',['getExtraCost',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a55255c0743d6fa8a8d70f7a72e5cbe14',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getextrareason_8',['getExtraReason',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a75dca1c65cc996354e0fb5b693ff0845',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getid_9',['getId',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a38b7b4b89efd5b8a840aa64fdb9d0397',1,'com.batteryworkshop.models.Battery.getId()'],['../classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#a91291ff4287ae6c8a0e768423bd328c7',1,'com.batteryworkshop.models.ItemReparacion.getId()'],['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a7e5aa64fd1ad5e516cf2d8021840f835',1,'com.batteryworkshop.models.RepairReport.getId()']]],
+  ['getitems_10',['getItems',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a96a077592ca64cf3a4dc285a0a49f135',1,'com::batteryworkshop::models::RepairReport']]],
+  ['getmodel_11',['getModel',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a1b14ea34bf8362d49d290149589c4669',1,'com::batteryworkshop::models::Battery']]],
+  ['getnombre_12',['getNombre',['../classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#a09dd404b4a3367913fbcd78b035358bf',1,'com::batteryworkshop::models::ItemReparacion']]],
+  ['getprecio_13',['getPrecio',['../classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#ab63cea20d74d647d7d6b49eebad9ae6e',1,'com::batteryworkshop::models::ItemReparacion']]],
+  ['getrepairreports_14',['getRepairReports',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a521b81ba01cfc401f0cec6e50a0c3d29',1,'com::batteryworkshop::models::Battery']]],
+  ['getreporte_15',['getReporte',['../classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#a3fb099de3aed9288785da66ef36db1ce',1,'com::batteryworkshop::models::ItemReparacion']]],
+  ['getstatus_16',['getStatus',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a1264928f8cd2f2abcb3f92e278759d4c',1,'com::batteryworkshop::models::RepairReport']]],
+  ['gettotal_17',['getTotal',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a9ceed357e720b360816bf3bb0f23625b',1,'com::batteryworkshop::models::RepairReport']]]
+];

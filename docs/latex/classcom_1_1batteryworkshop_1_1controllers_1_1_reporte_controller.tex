@@ -1,0 +1,109 @@
+\doxysection{com.\+batteryworkshop.\+controllers.\+Reporte\+Controller Class Reference}
+\hypertarget{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller}{}\label{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller}\index{com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_affc3734a1a6f6f11b71e74216312da5e}{Reporte\+Controller}} (\mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository}{Reporte\+Repository}} reporte\+Repository, \mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository}{Battery\+Repository}} bateria\+Repository, \mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repository}{Item\+Reparacion\+Repository}} item\+Repository)
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569c8704ae517d21806195063f7}{crear\+Reporte}} (@Path\+Variable Long bateria\+Id)
+\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db27854812923b1395666433e0}{finalizar\+Reporte}} (@Path\+Variable Long reporte\+Id)
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}{Item\+Reparacion}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941d921f4c71be238f6a19246da}{agregar\+Item}} (@Path\+Variable Long reporte\+Id, @Request\+Body \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}{Item\+Reparacion}} item)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller class for managing repair reports 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_affc3734a1a6f6f11b71e74216312da5e}\index{com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}!ReporteController@{ReporteController}}
+\index{ReporteController@{ReporteController}!com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}}
+\doxysubsubsection{\texorpdfstring{ReporteController()}{ReporteController()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_affc3734a1a6f6f11b71e74216312da5e} 
+com.\+batteryworkshop.\+controllers.\+Reporte\+Controller.\+Reporte\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository}{Reporte\+Repository}}}]{reporte\+Repository}{, }\item[{\mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository}{Battery\+Repository}}}]{bateria\+Repository}{, }\item[{\mbox{\hyperlink{interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repository}{Item\+Reparacion\+Repository}}}]{item\+Repository}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor for \doxylink{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller}{Reporte\+Controller}
+
+
+\begin{DoxyParams}{Parameters}
+{\em reporte\+Repository} & Repository for repair reports \\
+\hline
+{\em bateria\+Repository} & Repository for batteries \\
+\hline
+{\em item\+Repository} & Repository for repair items \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941d921f4c71be238f6a19246da}\index{com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}!agregarItem@{agregarItem}}
+\index{agregarItem@{agregarItem}!com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}}
+\doxysubsubsection{\texorpdfstring{agregarItem()}{agregarItem()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941d921f4c71be238f6a19246da} 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}{Item\+Reparacion}} com.\+batteryworkshop.\+controllers.\+Reporte\+Controller.\+agregar\+Item (\begin{DoxyParamCaption}\item[{@Path\+Variable Long}]{reporte\+Id}{, }\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}{Item\+Reparacion}}}]{item}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a repair item to a report
+
+
+\begin{DoxyParams}{Parameters}
+{\em reporte\+Id} & ID of the report \\
+\hline
+{\em item} & Repair item to add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The saved repair item 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if report is not found \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569c8704ae517d21806195063f7}\index{com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}!crearReporte@{crearReporte}}
+\index{crearReporte@{crearReporte}!com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}}
+\doxysubsubsection{\texorpdfstring{crearReporte()}{crearReporte()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569c8704ae517d21806195063f7} 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} com.\+batteryworkshop.\+controllers.\+Reporte\+Controller.\+crear\+Reporte (\begin{DoxyParamCaption}\item[{@Path\+Variable Long}]{bateria\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a new repair report for a battery
+
+
+\begin{DoxyParams}{Parameters}
+{\em bateria\+Id} & ID of the battery \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created repair report 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if battery is not found \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db27854812923b1395666433e0}\index{com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}!finalizarReporte@{finalizarReporte}}
+\index{finalizarReporte@{finalizarReporte}!com.batteryworkshop.controllers.ReporteController@{com.batteryworkshop.controllers.ReporteController}}
+\doxysubsubsection{\texorpdfstring{finalizarReporte()}{finalizarReporte()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db27854812923b1395666433e0} 
+String com.\+batteryworkshop.\+controllers.\+Reporte\+Controller.\+finalizar\+Reporte (\begin{DoxyParamCaption}\item[{@Path\+Variable Long}]{reporte\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Finalizes a repair report
+
+
+\begin{DoxyParams}{Parameters}
+{\em reporte\+Id} & ID of the report to finalize \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+JSON summary of the finalized report 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if report is not found \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/batteryworkshop/controllers/Reporte\+Controller.\+java\end{DoxyCompactItemize}

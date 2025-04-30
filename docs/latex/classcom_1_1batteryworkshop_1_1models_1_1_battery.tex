@@ -1,0 +1,160 @@
+\doxysection{com.\+batteryworkshop.\+models.\+Battery Class Reference}
+\hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery}{}\label{classcom_1_1batteryworkshop_1_1models_1_1_battery}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+
+
+\doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} entity registered in the workshop system.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1429b4fd6b6f4ac028a4f45b345f1682}{Battery}} (String model, String description, Big\+Decimal base\+Cost)
+\begin{DoxyCompactList}\small\item\em Creates a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} instance with required basic data. \end{DoxyCompactList}\item 
+Long \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a38b7b4b89efd5b8a840aa64fdb9d0397}{get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the unique identifier of the battery. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149589c4669}{get\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Gets the battery model. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a22a13}{get\+Description}} ()
+\begin{DoxyCompactList}\small\item\em Gets the battery description. \end{DoxyCompactList}\item 
+Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9}{get\+Base\+Cost}} ()
+\begin{DoxyCompactList}\small\item\em Gets the base repair cost of the battery. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} $>$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29}{get\+Repair\+Reports}} ()
+\begin{DoxyCompactList}\small\item\em Gets an immutable list of repair reports associated with this battery. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb1e731}{add\+Repair\+Report}} ()
+\begin{DoxyCompactList}\small\item\em Creates and adds a new repair report to the battery. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a4f5d2df08838d7a23a02c362da019a73}{Battery}} ()
+\begin{DoxyCompactList}\small\item\em Protected no-\/args constructor required by JPA. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} entity registered in the workshop system. 
+
+This entity stores the basic battery information and its associated repair reports. The battery has a predefined model, description and base repair cost. \begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a4f5d2df08838d7a23a02c362da019a73}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!Battery@{Battery}}
+\index{Battery@{Battery}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{Battery()}{Battery()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a4f5d2df08838d7a23a02c362da019a73} 
+com.\+batteryworkshop.\+models.\+Battery.\+Battery (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Protected no-\/args constructor required by JPA. 
+
+Should not be used directly in application code. \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1429b4fd6b6f4ac028a4f45b345f1682}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!Battery@{Battery}}
+\index{Battery@{Battery}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{Battery()}{Battery()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1429b4fd6b6f4ac028a4f45b345f1682} 
+com.\+batteryworkshop.\+models.\+Battery.\+Battery (\begin{DoxyParamCaption}\item[{String}]{model}{, }\item[{String}]{description}{, }\item[{Big\+Decimal}]{base\+Cost}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Creates a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} instance with required basic data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & The battery model or type (cannot be null) \\
+\hline
+{\em description} & The detailed battery description (can be null) \\
+\hline
+{\em base\+Cost} & The base repair cost (cannot be null) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if model or base\+Cost are null \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb1e731}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!addRepairReport@{addRepairReport}}
+\index{addRepairReport@{addRepairReport}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{addRepairReport()}{addRepairReport()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb1e731} 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} com.\+batteryworkshop.\+models.\+Battery.\+add\+Repair\+Report (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Creates and adds a new repair report to the battery. 
+
+\begin{DoxyReturn}{Returns}
+The newly created and added repair report
+\end{DoxyReturn}
+Maintains bidirectional consistency of the relationship between \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} and \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}. \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getBaseCost@{getBaseCost}}
+\index{getBaseCost@{getBaseCost}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getBaseCost()}{getBaseCost()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9} 
+Big\+Decimal com.\+batteryworkshop.\+models.\+Battery.\+get\+Base\+Cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the base repair cost of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The base repair cost 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a22a13}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a22a13} 
+String com.\+batteryworkshop.\+models.\+Battery.\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the battery description. 
+
+\begin{DoxyReturn}{Returns}
+The battery description, can be null 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a38b7b4b89efd5b8a840aa64fdb9d0397}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getId@{getId}}
+\index{getId@{getId}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a38b7b4b89efd5b8a840aa64fdb9d0397} 
+Long com.\+batteryworkshop.\+models.\+Battery.\+get\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the unique identifier of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The battery ID 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149589c4669}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getModel@{getModel}}
+\index{getModel@{getModel}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getModel()}{getModel()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149589c4669} 
+String com.\+batteryworkshop.\+models.\+Battery.\+get\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the battery model. 
+
+\begin{DoxyReturn}{Returns}
+The battery model 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getRepairReports@{getRepairReports}}
+\index{getRepairReports@{getRepairReports}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getRepairReports()}{getRepairReports()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29} 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} $>$ com.\+batteryworkshop.\+models.\+Battery.\+get\+Repair\+Reports (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets an immutable list of repair reports associated with this battery. 
+
+\begin{DoxyReturn}{Returns}
+Immutable list of repair reports
+\end{DoxyReturn}
+The returned list cannot be modified to maintain encapsulation. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/batteryworkshop/models/Battery.\+java\end{DoxyCompactItemize}

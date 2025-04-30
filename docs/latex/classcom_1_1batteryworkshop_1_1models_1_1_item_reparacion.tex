@@ -1,0 +1,173 @@
+\doxysection{com.\+batteryworkshop.\+models.\+Item\+Reparacion Class Reference}
+\hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}{}\label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+
+
+Repair item used during battery repairs.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a695a05f33743ae0fa003726dcb73cd32}{Item\+Reparacion}} (String nombre, Big\+Decimal precio, \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} reporte)
+\begin{DoxyCompactList}\small\item\em Creates a new repair item instance. \end{DoxyCompactList}\item 
+Long \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a91291ff4287ae6c8a0e768423bd328c7}{get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the unique identifier of the item. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf}{get\+Nombre}} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the item. \end{DoxyCompactList}\item 
+Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e}{get\+Precio}} ()
+\begin{DoxyCompactList}\small\item\em Gets the price of the item. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce}{get\+Reporte}} ()
+\begin{DoxyCompactList}\small\item\em Gets the associated repair report. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5}{equals}} (Object o)
+\begin{DoxyCompactList}\small\item\em Checks if two repair items are equal. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a182aeb13d552ae7e953da7220da1c752}{hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Generates hash code for the repair item. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1}{set\+Reporte}} (\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} repair\+Report)
+\begin{DoxyCompactList}\small\item\em Sets the associated repair report. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_afef1a035e95f4cc887a46c8725932d77}\label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_afef1a035e95f4cc887a46c8725932d77} 
+{\bfseries Item\+Reparacion} ()
+\begin{DoxyCompactList}\small\item\em Protected no-\/args constructor required by JPA. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Repair item used during battery repairs. 
+
+Each item has an identifying name and price that contributes to the total report cost. Items can be components like BMS, casing or cells. \begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a695a05f33743ae0fa003726dcb73cd32}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!ItemReparacion@{ItemReparacion}}
+\index{ItemReparacion@{ItemReparacion}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{ItemReparacion()}{ItemReparacion()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a695a05f33743ae0fa003726dcb73cd32} 
+com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+Item\+Reparacion (\begin{DoxyParamCaption}\item[{String}]{nombre}{, }\item[{Big\+Decimal}]{precio}{, }\item[{\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}}}]{reporte}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Creates a new repair item instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Name of the item (cannot be null or empty) \\
+\hline
+{\em precio} & Price of the item (cannot be null or negative) \\
+\hline
+{\em reporte} & Associated repair report (cannot be null) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if any parameter is invalid \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!equals@{equals}}
+\index{equals@{equals}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5} 
+boolean com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if two repair items are equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em o} & Object to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if items have same ID, false otherwise 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a91291ff4287ae6c8a0e768423bd328c7}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!getId@{getId}}
+\index{getId@{getId}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a91291ff4287ae6c8a0e768423bd328c7} 
+Long com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+get\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the unique identifier of the item. 
+
+\begin{DoxyReturn}{Returns}
+ID of the repair item 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!getNombre@{getNombre}}
+\index{getNombre@{getNombre}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{getNombre()}{getNombre()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf} 
+String com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+get\+Nombre (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the name of the item. 
+
+\begin{DoxyReturn}{Returns}
+Name of the repair item 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!getPrecio@{getPrecio}}
+\index{getPrecio@{getPrecio}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{getPrecio()}{getPrecio()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e} 
+Big\+Decimal com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+get\+Precio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the price of the item. 
+
+\begin{DoxyReturn}{Returns}
+Price of the repair item 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!getReporte@{getReporte}}
+\index{getReporte@{getReporte}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{getReporte()}{getReporte()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce} 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+get\+Reporte (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the associated repair report. 
+
+\begin{DoxyReturn}{Returns}
+Associated repair report 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a182aeb13d552ae7e953da7220da1c752}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a182aeb13d552ae7e953da7220da1c752} 
+int com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+hash\+Code (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Generates hash code for the repair item. 
+
+\begin{DoxyReturn}{Returns}
+Hash code based on item ID 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1}\index{com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}!setReporte@{setReporte}}
+\index{setReporte@{setReporte}!com.batteryworkshop.models.ItemReparacion@{com.batteryworkshop.models.ItemReparacion}}
+\doxysubsubsection{\texorpdfstring{setReporte()}{setReporte()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1} 
+void com.\+batteryworkshop.\+models.\+Item\+Reparacion.\+set\+Reporte (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}}}]{repair\+Report}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the associated repair report. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repair\+Report} & Report to associate with this item \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/batteryworkshop/models/Item\+Reparacion.\+java\end{DoxyCompactItemize}

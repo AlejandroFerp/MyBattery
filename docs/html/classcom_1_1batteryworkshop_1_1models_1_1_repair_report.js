@@ -1,0 +1,27 @@
+var classcom_1_1batteryworkshop_1_1models_1_1_repair_report =
+[
+    [ "RepairReport", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a1661a8fe302090bd9931e19c3b7e49e5", null ],
+    [ "RepairReport", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a9feb5b5571c1ac0997afe466adffc88b", null ],
+    [ "addItem", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a130c0bbdf01fee8f0ad1d0ddb0f88def", null ],
+    [ "generateJsonSummary", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a214cfd32024a6c4b5a0c27b97f4f23b4", null ],
+    [ "getBattery", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a57bdc6b5a72fafbb9a950a65641d2e08", null ],
+    [ "getCancellationReason", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aaa61a26f344a38bceec32b5af88f00fa", null ],
+    [ "getCurrentStep", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aa21e898c8c9a5dcca16d107eecf73c9e", null ],
+    [ "getEstado", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a0964d69614b9a0789c7d52cdf429f67d", null ],
+    [ "getExtraCost", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a55255c0743d6fa8a8d70f7a72e5cbe14", null ],
+    [ "getExtraReason", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a75dca1c65cc996354e0fb5b693ff0845", null ],
+    [ "getId", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a7e5aa64fd1ad5e516cf2d8021840f835", null ],
+    [ "getItems", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a96a077592ca64cf3a4dc285a0a49f135", null ],
+    [ "getStatus", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a1264928f8cd2f2abcb3f92e278759d4c", null ],
+    [ "getTotal", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a9ceed357e720b360816bf3bb0f23625b", null ],
+    [ "isCustomerApproved", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#ad62d2574f7e21dc8cd5ed2851b257972", null ],
+    [ "setCancellationReason", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a1909938246552c2426779dfa6b90a01e", null ],
+    [ "setCurrentStep", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a492dd0b629d7ccd2424f4981473ac186", null ],
+    [ "setCustomerApproved", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aafcb31331fb32e2948a0f3e34800425c", null ],
+    [ "setEstado", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a72332b862cf18b0aa64a19746d308adc", null ],
+    [ "setExtraCost", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#adb02f5dcf4e3d8fe67998eab0def9382", null ],
+    [ "setExtraReason", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a6fca07f688e91e16eceee6ea18264ce2", null ],
+    [ "setPasoActual", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a839e01e3f907c5b4ac3c60db39bb6cab", null ],
+    [ "setStatus", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a16eaa7666c7403307ec146e7775b1352", null ],
+    [ "setTotal", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aa3608da800be1248e75918707680fd4e", null ]
+];
