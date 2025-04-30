@@ -1,6 +1,7 @@
 package com.batteryworkshop.models;
 
 import jakarta.persistence.*;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,15 +9,16 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Representa un informe de reparación para una batería.
- * Esta entidad mantiene el registro completo del proceso de reparación,
- * incluyendo el estado actual, costes y detalles del servicio.
+ * Repair report entity for batteries.
+ * Contains complete repair process information including current status, costs and service details.
  *
  * @since 1.0
  */
 @Entity
 public class RepairReport {
-    /** Plantilla para la generación del resumen JSON del informe. */
+    /**
+     * Template for generating JSON report summary
+     */
     private static final String JSON_TEMPLATE = """
             {
               "bateria_modelo": "%s",
@@ -29,47 +31,69 @@ public class RepairReport {
               "total": %s
             }""";
 
-    /** Identificador único del informe. */
+    /**
+     * Unique report identifier
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private final Long id;
 
-    /** Paso actual en el proceso de reparación. */
+    /**
+     * Current step in repair process
+     */
     private int currentStep;
 
-    /** Estado actual de la reparación. */
+    /**
+     * Current repair status
+     */
     private String status;
 
-    /** Motivo de cancelación si la reparación fue cancelada. */
+    /**
+     * Reason if repair was cancelled
+     */
     private String cancellationReason;
 
-    /** Indica si el cliente ha aprobado la reparación. */
+    /**
+     * Indicates if customer approved repair
+     */
     private boolean customerApproved;
 
-    /** Costes adicionales no incluidos en el presupuesto inicial. */
+    /**
+     * Additional costs not included in initial budget
+     */
     private BigDecimal extraCost;
 
-    /** Justificación de los costes adicionales. */
+    /**
+     * Justification for additional costs
+     */
     private String extraReason;
 
-    /** Coste total de la reparación incluyendo todos los conceptos. */
+    /**
+     * Total repair cost including all items
+     */
     private BigDecimal total;
 
-    /** Resumen del informe en formato JSON. */
+    /**
+     * Report summary in JSON format
+     */
     @Column(columnDefinition = "TEXT")
     private String jsonSummary;
 
-    /** Batería asociada a este informe de reparación. */
+    /**
+     * Battery associated with this repair report
+     */
     @ManyToOne
     private final Battery battery;
 
-    /** Lista de ítems incluidos en la reparación. */
+    /**
+     * List of repair items included
+     */
     @OneToMany(mappedBy = "reporte", cascade = CascadeType.ALL)
     private final List<ItemReparacion> items = new ArrayList<>();
 
     /**
-     * Constructor protegido sin argumentos requerido por JPA.
-     * No debe utilizarse directamente en el código de la aplicación.
+     * Protected no-args constructor required by JPA.
+     * Should not be used directly in application code.
      */
     public RepairReport() {
         this.id = null;
@@ -77,10 +101,10 @@ public class RepairReport {
     }
 
     /**
-     * Crea un nuevo informe de reparación para una batería específica.
+     * Creates a new repair report for a specific battery
      *
-     * @param battery la batería asociada al informe
-     * @throws IllegalArgumentException si battery es null
+     * @param battery Battery associated with report
+     * @throws IllegalArgumentException if battery is null
      */
     public RepairReport(Battery battery) {
         if (battery == null) {
@@ -93,10 +117,10 @@ public class RepairReport {
     }
 
     /**
-     * Genera un resumen del informe en formato JSON.
-     * Incluye información sobre la batería, costes y elementos de reparación.
+     * Generates report summary in JSON format.
+     * Includes battery information, costs and repair items.
      *
-     * @return cadena JSON con el resumen del informe
+     * @return JSON string with report summary
      */
     public String generateJsonSummary() {
         String itemsJson = generateItemsJson();
@@ -110,9 +134,9 @@ public class RepairReport {
     }
 
     /**
-     * Genera la sección JSON correspondiente a los ítems de reparación.
+     * Generates JSON section for repair items
      *
-     * @return cadena JSON con los detalles de los ítems
+     * @return JSON string with items details
      */
     private String generateItemsJson() {
         if (items.isEmpty()) {
@@ -125,46 +149,88 @@ public class RepairReport {
     }
 
     /**
-     * Obtiene el modelo de la batería asociada.
+     * Gets associated battery model
      *
-     * @return modelo de la batería o "desconocido" si no hay batería asociada
+     * @return Battery model or "unknown" if no battery associated
      */
     private String getBatteryModel() {
         return battery != null ? battery.getModel() : "desconocido";
     }
 
     /**
-     * Obtiene el coste base de la batería.
+     * Gets base cost of associated battery
      *
-     * @return coste base de la batería o ZERO si no hay batería asociada
+     * @return Battery base cost or ZERO if no battery associated
      */
     private BigDecimal getBatteryBaseCost() {
         return battery != null ? battery.getBaseCost() : BigDecimal.ZERO;
     }
 
     // Getters
-    public Long getId() { return id; }
-    public int getCurrentStep() { return currentStep; }
-    public String getStatus() { return status; }
-    public boolean isCustomerApproved() { return customerApproved; }
-    public BigDecimal getExtraCost() { return extraCost; }
-    public BigDecimal getTotal() { return total; }
-    public Battery getBattery() { return battery; }
 
     /**
-     * Obtiene una vista inmutable de la lista de ítems de reparación.
+     * Gets report ID
+     */
+    public Long getId() {
+        return id;
+    }
+
+    /**
+     * Gets current repair step
+     */
+    public int getCurrentStep() {
+        return currentStep;
+    }
+
+    /**
+     * Gets repair status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * Gets customer approval status
+     */
+    public boolean isCustomerApproved() {
+        return customerApproved;
+    }
+
+    /**
+     * Gets extra costs
+     */
+    public BigDecimal getExtraCost() {
+        return extraCost;
+    }
+
+    /**
+     * Gets total cost
+     */
+    public BigDecimal getTotal() {
+        return total;
+    }
+
+    /**
+     * Gets associated battery
+     */
+    public Battery getBattery() {
+        return battery;
+    }
+
+    /**
+     * Gets immutable view of repair items list
      *
-     * @return lista inmutable de ítems de reparación
+     * @return Immutable list of repair items
      */
     public List<ItemReparacion> getItems() {
         return Collections.unmodifiableList(items);
     }
 
     /**
-     * Añade un nuevo ítem a la reparación.
+     * Adds new repair item
      *
-     * @param item el ítem a añadir
-     * @throws IllegalArgumentException si item es null
+     * @param item Item to add
+     * @throws IllegalArgumentException if item is null
      */
     public void addItem(ItemReparacion item) {
         if (item == null) {
@@ -174,29 +240,88 @@ public class RepairReport {
         item.setReporte(this);
     }
 
-    // Setters necesarios
-    public void setCurrentStep(int currentStep) { this.currentStep = currentStep; }
-    public void setStatus(String status) { this.status = status; }
-    public void setCancellationReason(String reason) { this.cancellationReason = reason; }
-    public void setCustomerApproved(boolean approved) { this.customerApproved = approved; }
-    public void setExtraCost(BigDecimal cost) { this.extraCost = cost; }
-    public void setExtraReason(String reason) { this.extraReason = reason; }
-    public void setTotal(BigDecimal total) { this.total = total; }
+    // Required setters
 
+    /**
+     * Sets current repair step
+     */
+    public void setCurrentStep(int currentStep) {
+        this.currentStep = currentStep;
+    }
+
+    /**
+     * Sets repair status
+     */
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    /**
+     * Sets cancellation reason
+     */
+    public void setCancellationReason(String reason) {
+        this.cancellationReason = reason;
+    }
+
+    /**
+     * Sets customer approval
+     */
+    public void setCustomerApproved(boolean approved) {
+        this.customerApproved = approved;
+    }
+
+    /**
+     * Sets extra cost
+     */
+    public void setExtraCost(BigDecimal cost) {
+        this.extraCost = cost;
+    }
+
+    /**
+     * Sets extra cost reason
+     */
+    public void setExtraReason(String reason) {
+        this.extraReason = reason;
+    }
+
+    /**
+     * Sets total cost
+     */
+    public void setTotal(BigDecimal total) {
+        this.total = total;
+    }
+
+    /**
+     * Gets repair status
+     */
     public String getEstado() {
         return this.status;
     }
 
-
+    /**
+     * Sets repair status
+     */
     public void setEstado(String newStatus) {
-        this.status=newStatus;
+        this.status = newStatus;
     }
 
+    /**
+     * Sets current step
+     */
     public void setPasoActual(int currentStep) {
-        this.currentStep=currentStep;
+        this.currentStep = currentStep;
     }
 
+    /**
+     * Gets extra cost reason
+     */
     public String getExtraReason() {
         return this.extraReason;
+    }
+    /**
+     * Gets cancellation reason
+     */
+    public String getCancellationReason() {
+        return cancellationReason;
     }
 }

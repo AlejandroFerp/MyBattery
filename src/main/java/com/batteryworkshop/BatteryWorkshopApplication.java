@@ -1,26 +1,33 @@
 package com.batteryworkshop;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Clase principal que inicializa la aplicación del Taller de Baterías.
- * Esta clase configura y arranca el contexto de Spring Boot, inicializando
- * todos los componentes y servicios necesarios para la aplicación.
+ * Main class that initializes the Battery Workshop application.
+ * This class configures and boots up the Spring Boot context,
+ * initializing all components and services required for the application.
  */
 @SpringBootApplication
 public class BatteryWorkshopApplication {
 
+    /**
+     * Logger instance for this class
+     */
     private static final Logger logger = LoggerFactory.getLogger(BatteryWorkshopApplication.class);
+
+    /**
+     * Application class reference used for Spring Boot initialization
+     */
     private static final Class<BatteryWorkshopApplication> APPLICATION_CLASS = BatteryWorkshopApplication.class;
 
     /**
-     * Punto de entrada principal de la aplicación.
-     * Inicializa el contexto de Spring Boot y configura la aplicación.
+     * Main entry point of the application.
+     * Initializes the Spring Boot context and configures the application.
      *
-     * @param args Argumentos de la línea de comandos que se pasan a la aplicación
+     * @param args Command line arguments passed to the application
+     * @throws RuntimeException if there is an error during application startup
      */
     public static void main(String[] args) {
         try {
@@ -32,4 +39,5 @@ public class BatteryWorkshopApplication {
             throw new RuntimeException("Error en el inicio de la aplicación", e);
         }
     }
+
 }

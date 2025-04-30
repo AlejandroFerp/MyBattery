@@ -1,45 +1,51 @@
 package com.batteryworkshop.models;
 
 import jakarta.persistence.*;
+
 import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
- * Representa un ítem utilizado durante una reparación de batería.
- * Cada ítem tiene un nombre identificativo y un precio que se suma al total del reporte.
- * Los ítems pueden ser componentes como BMS, carcasa o celdas.
- *
+ * @brief Repair item used during battery repairs
+ * @details Each item has an identifying name and price that contributes to the total report cost.
+ * Items can be components like BMS, casing or cells.
  * @since 1.0
  */
 @Entity
 @Table(name = "item_reparacion")
 public class ItemReparacion {
 
+    /**
+     * @brief Unique identifier for the repair item
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private final Long id;
 
     /**
-     * Nombre identificativo del ítem.
+     * @brief Identifying name of the item
+     * @details Name cannot be null and has max length of 100 characters
      */
     @Column(nullable = false, length = 100)
     private final String nombre;
 
     /**
-     * Precio del ítem individual en la moneda base.
+     * @brief Individual item price in base currency
+     * @details Price stored with precision of 10 digits and 2 decimal places
      */
     @Column(nullable = false, precision = 10, scale = 2)
     private final BigDecimal precio;
 
     /**
-     * Reporte al cual está asociado este ítem.
+     * @brief Associated repair report
+     * @details Many-to-one relationship with lazy loading
      */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "reporte_id", nullable = false)
     private RepairReport reporte;
 
     /**
-     * Constructor protegido requerido por JPA.
+     * @brief Protected no-args constructor required by JPA
      */
     protected ItemReparacion() {
         this.id = null;
@@ -49,12 +55,11 @@ public class ItemReparacion {
     }
 
     /**
-     * Crea una nueva instancia de ItemReparacion.
-     *
-     * @param nombre  nombre del ítem (no puede ser null o vacío)
-     * @param precio  precio del ítem (no puede ser null o negativo)
-     * @param reporte reporte asociado al ítem (no puede ser null)
-     * @throws IllegalArgumentException si algún parámetro es inválido
+     * @param nombre  Name of the item (cannot be null or empty)
+     * @param precio  Price of the item (cannot be null or negative)
+     * @param reporte Associated repair report (cannot be null)
+     * @throws IllegalArgumentException if any parameter is invalid
+     * @brief Creates a new repair item instance
      */
     public ItemReparacion(String nombre, BigDecimal precio, RepairReport reporte) {
         if (nombre == null || nombre.trim().isEmpty()) {
@@ -74,41 +79,42 @@ public class ItemReparacion {
     }
 
     /**
-     * Obtiene el identificador único del ítem.
-     *
-     * @return el ID del ítem
+     * @return ID of the repair item
+     * @brief Gets the unique identifier of the item
      */
     public Long getId() {
         return id;
     }
 
     /**
-     * Obtiene el nombre del ítem.
-     *
-     * @return el nombre del ítem
+     * @return Name of the repair item
+     * @brief Gets the name of the item
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * Obtiene el precio del ítem.
-     *
-     * @return el precio del ítem
+     * @return Price of the repair item
+     * @brief Gets the price of the item
      */
     public BigDecimal getPrecio() {
         return precio;
     }
 
     /**
-     * Obtiene el reporte asociado al ítem.
-     *
-     * @return el reporte asociado
+     * @return Associated repair report
+     * @brief Gets the associated repair report
      */
     public RepairReport getReporte() {
         return reporte;
     }
 
+    /**
+     * @param o Object to compare with
+     * @return true if items have same ID, false otherwise
+     * @brief Checks if two repair items are equal
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -117,12 +123,20 @@ public class ItemReparacion {
         return Objects.equals(id, that.id);
     }
 
+    /**
+     * @return Hash code based on item ID
+     * @brief Generates hash code for the repair item
+     */
     @Override
     public int hashCode() {
         return Objects.hash(id);
     }
 
+    /**
+     * @param repairReport Report to associate with this item
+     * @brief Sets the associated repair report
+     */
     public void setReporte(RepairReport repairReport) {
-        this.reporte=repairReport;
+        this.reporte = repairReport;
     }
 }
