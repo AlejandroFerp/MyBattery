@@ -132,4 +132,9 @@ public class ReporteController {
         reporte.setTotal(total);
         reporte.setEstado(ESTADO_FINALIZADO);
     }
+    public RepairReport getReporte(Long id) {
+        return reporteRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Informe no encontrado con ID: " + id));
+    }
+
 }

@@ -37,6 +37,13 @@ public class ItemReparacion {
     private final BigDecimal precio;
 
     /**
+     * @brief Description of the repair item
+     * @details Detailed explanation of what the item is and its characteristics
+     */
+    @Column(length = 500)
+    private String descripcion;
+
+    /**
      * @brief Associated repair report
      * @details Many-to-one relationship with lazy loading. Can be null.
      */
@@ -52,6 +59,7 @@ public class ItemReparacion {
         this.nombre = null;
         this.precio = null;
         this.reporte = null;
+        this.descripcion = null;
     }
 
     /**
@@ -83,6 +91,7 @@ public class ItemReparacion {
         this.nombre = nombre;
         this.precio = precio;
         this.reporte = reporte;
+        this.descripcion = "";
     }
 
     /**
@@ -107,6 +116,22 @@ public class ItemReparacion {
      */
     public BigDecimal getPrecio() {
         return this.precio;
+    }
+
+    /**
+     * @return Description of the repair item
+     * @brief Gets the description of the item
+     */
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    /**
+     * @param descripcion New description for the item
+     * @brief Sets the description of the item
+     */
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
     /**
