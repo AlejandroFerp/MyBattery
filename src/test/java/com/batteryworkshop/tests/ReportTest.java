@@ -16,7 +16,7 @@ import com.batteryworkshop.models.RepairReport;
  * Pruebas unitarias para la clase RepairReport.
  * Verifica el correcto funcionamiento de la creación y gestión de reportes de reparación.
  */
-public class ReporteTest {
+public class ReportTest {
 
     /**
      * Batería de prueba utilizada en los tests

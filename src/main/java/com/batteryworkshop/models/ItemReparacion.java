@@ -38,10 +38,10 @@ public class ItemReparacion {
 
     /**
      * @brief Associated repair report
-     * @details Many-to-one relationship with lazy loading
+     * @details Many-to-one relationship with lazy loading. Can be null.
      */
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "reporte_id", nullable = false)
+    @JoinColumn(name = "reporte_id", nullable = true)
     private RepairReport reporte;
 
     /**
@@ -55,10 +55,20 @@ public class ItemReparacion {
     }
 
     /**
+     * @param nombre Name of the item (cannot be null or empty)
+     * @param precio Price of the item (cannot be null or negative)
+     * @throws IllegalArgumentException if nombre or precio parameters are invalid
+     * @brief Creates a new repair item instance without an associated report
+     */
+    public ItemReparacion(String nombre, BigDecimal precio) {
+        this(nombre, precio, null);
+    }
+
+    /**
      * @param nombre  Name of the item (cannot be null or empty)
      * @param precio  Price of the item (cannot be null or negative)
-     * @param reporte Associated repair report (cannot be null)
-     * @throws IllegalArgumentException if any parameter is invalid
+     * @param reporte Associated repair report (optional)
+     * @throws IllegalArgumentException if nombre or precio parameters are invalid
      * @brief Creates a new repair item instance
      */
     public ItemReparacion(String nombre, BigDecimal precio, RepairReport reporte) {
@@ -67,9 +77,6 @@ public class ItemReparacion {
         }
         if (precio == null || precio.compareTo(BigDecimal.ZERO) < 0) {
             throw new IllegalArgumentException("El precio no puede ser null o negativo");
-        }
-        if (reporte == null) {
-            throw new IllegalArgumentException("El reporte no puede ser null");
         }
 
         this.id = null;
@@ -99,7 +106,7 @@ public class ItemReparacion {
      * @brief Gets the price of the item
      */
     public BigDecimal getPrecio() {
-        return precio;
+        return this.precio;
     }
 
     /**

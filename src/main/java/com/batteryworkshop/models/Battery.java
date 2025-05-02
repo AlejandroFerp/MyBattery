@@ -110,7 +110,7 @@ public class Battery {
      * @brief Gets the base repair cost of the battery.
      */
     public BigDecimal getBaseCost() {
-        return baseCost;
+        return this.baseCost;
     }
 
     /**

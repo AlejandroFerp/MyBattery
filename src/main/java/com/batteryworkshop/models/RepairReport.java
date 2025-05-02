@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
@@ -101,10 +102,10 @@ public class RepairReport {
     }
 
     /**
-     * Creates a new repair report for a specific battery
-     *
      * @param battery Battery associated with report
      * @throws IllegalArgumentException if battery is null
+     * @brief Creates a new repair report for a specific battery.
+     * @details Initializes a repair report with zero extra cost and total cost.
      */
     public RepairReport(Battery battery) {
         if (battery == null) {
@@ -113,7 +114,46 @@ public class RepairReport {
         this.id = null;
         this.battery = battery;
         this.extraCost = BigDecimal.ZERO;
-        this.total = BigDecimal.ZERO;
+        this.total = TotalCalculator();
+    }
+
+    /**
+     * Calculates total repair cost by adding battery base cost,
+     * repair items cost and extra costs if any.
+     *
+     * @return Total cost of repair work in euros
+     */
+    public BigDecimal TotalCalculator() {
+        // Punto 1: Inicio del método
+        System.out.println("=== MEMORIA DE DEPURACIÓN ===");
+        System.out.println("Inicio del cálculo del total");
+
+        BigDecimal costeTotalItems = Optional.ofNullable(items)
+                .orElse(Collections.emptyList())
+                .stream()
+                .map(item -> {
+                    // Punto 2: Por cada item
+                    System.out.printf("Item procesado: %s - Precio: %s%n",
+                            item.getNombre(), item.getPrecio());
+                    return item.getPrecio();
+                })
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+
+        // Punto 3: Resultados parciales
+        System.out.println("Resultados parciales:");
+        System.out.printf("- Costo base de batería: %s%n", battery.getBaseCost());
+        System.out.printf("- Total de items: %s%n", costeTotalItems);
+        System.out.printf("- Costo extra: %s%n", this.extraCost);
+
+        BigDecimal total = battery.getBaseCost()
+                .add(costeTotalItems)
+                .add(this.extraCost);
+
+        // Punto 4: Resultado final
+        System.out.printf("Resultado final: %s%n", total);
+        System.out.println("=== FIN DE MEMORIA ===");
+
+        return total;
     }
 
     /**
@@ -123,6 +163,7 @@ public class RepairReport {
      * @return JSON string with report summary
      */
     public String generateJsonSummary() {
+        this.total = TotalCalculator();
         String itemsJson = generateItemsJson();
         return String.format(JSON_TEMPLATE,
                 getBatteryModel(),
