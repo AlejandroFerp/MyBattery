@@ -1,0 +1,8 @@
+<map id="com.batteryworkshop.models.RepairReport.setEstado" name="com.batteryworkshop.models.RepairReport.setEstado">
+<area shape="rect" id="Node000001" title=" " alt="" coords="282,67,478,109"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller.html#a3b3c9569c8704ae517d21806195063f7" title=" " alt="" coords="12,29,227,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,74,227,69,227,63,266,69"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a28fc56ad6d1491f8b4a9d171a214c898" title=" " alt="" coords="5,96,234,155"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="267,107,234,112,234,106,266,102"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="162,16,146,10,119,8,95,10,80,15,74,21,76,28,70,29,68,19,77,10,94,5,120,3,147,5,164,11"/>
+</map>

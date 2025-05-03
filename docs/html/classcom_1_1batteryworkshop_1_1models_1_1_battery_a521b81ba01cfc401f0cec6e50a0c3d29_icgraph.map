@@ -1,0 +1,7 @@
+<map id="com.batteryworkshop.models.Battery.getRepairReports" name="com.batteryworkshop.models.Battery.getRepairReports">
+<area shape="rect" id="Node000001" title="Gets an immutable list of repair reports associated with this battery." alt="" coords="292,43,488,85"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#a8057218461ea5a6000b03a89a32831fa" title="Prueba la adición de reportes de reparación a una batería." alt="" coords="5,5,244,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,51,244,46,244,41,277,45"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#a732b07d301fd1824cb20a4b898d1b772" title="Prueba la creación exitosa de una batería con todos los campos válidos." alt="" coords="22,72,227,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,83,228,90,227,84,276,77"/>
+</map>

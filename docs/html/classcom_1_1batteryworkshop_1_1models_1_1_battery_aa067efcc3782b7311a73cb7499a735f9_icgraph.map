@@ -1,0 +1,5 @@
+<map id="com.batteryworkshop.models.Battery.getBaseCost" name="com.batteryworkshop.models.Battery.getBaseCost">
+<area shape="rect" id="Node000001" title="Gets the base repair cost of the battery." alt="" coords="259,13,455,56"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#a732b07d301fd1824cb20a4b898d1b772" title="Prueba la creación exitosa de una batería con todos los campos válidos." alt="" coords="5,5,211,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,37,211,37,211,32,243,32"/>
+</map>

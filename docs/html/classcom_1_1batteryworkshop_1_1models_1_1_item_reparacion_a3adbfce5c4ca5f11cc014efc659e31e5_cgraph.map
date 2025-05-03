@@ -1,0 +1,5 @@
+<map id="com.batteryworkshop.models.ItemReparacion.equals" name="com.batteryworkshop.models.ItemReparacion.equals">
+<area shape="rect" id="Node000001" title="Checks if two repair items are equal." alt="" coords="5,5,202,48"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#afef1a035e95f4cc887a46c8725932d77" title="Protected no&#45;args constructor required by JPA." alt="" coords="250,5,459,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,24,234,24,234,29,202,29"/>
+</map>

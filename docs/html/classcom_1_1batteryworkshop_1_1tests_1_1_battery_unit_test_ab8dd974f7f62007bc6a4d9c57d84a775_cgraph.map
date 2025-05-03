@@ -1,0 +1,5 @@
+<map id="com.batteryworkshop.tests.BatteryUnitTest.testCreateBatteryWithNullDescription" name="com.batteryworkshop.tests.BatteryUnitTest.testCreateBatteryWithNullDescription">
+<area shape="rect" id="Node000001" title="Prueba la creación de una batería con una descripción null." alt="" coords="5,5,225,64"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1models_1_1_battery.html#ab7d3a52347c8cfbdec0038d190a22a13" title="Gets the battery description." alt="" coords="273,13,469,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,32,257,32,257,37,225,37"/>
+</map>

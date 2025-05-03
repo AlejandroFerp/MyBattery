@@ -1,0 +1,7 @@
+<map id="com.batteryworkshop.models.Battery.getDescription" name="com.batteryworkshop.models.Battery.getDescription">
+<area shape="rect" id="Node000001" title="Gets the battery description." alt="" coords="273,55,469,97"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#ab8dd974f7f62007bc6a4d9c57d84a775" title="Prueba la creación de una batería con una descripción null." alt="" coords="5,5,225,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,60,225,55,225,50,258,55"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#a732b07d301fd1824cb20a4b898d1b772" title="Prueba la creación exitosa de una batería con todos los campos válidos." alt="" coords="12,88,218,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,97,219,103,218,98,257,92"/>
+</map>

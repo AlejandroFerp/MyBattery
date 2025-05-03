@@ -1,0 +1,5 @@
+<map id="com.batteryworkshop.models.Battery.addRepairReport" name="com.batteryworkshop.models.Battery.addRepairReport">
+<area shape="rect" id="Node000001" title="Creates and adds a new repair report to the battery." alt="" coords="292,5,488,48"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html#a8057218461ea5a6000b03a89a32831fa" title="Prueba la adición de reportes de reparación a una batería." alt="" coords="5,5,244,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,29,244,29,244,24,276,24"/>
+</map>

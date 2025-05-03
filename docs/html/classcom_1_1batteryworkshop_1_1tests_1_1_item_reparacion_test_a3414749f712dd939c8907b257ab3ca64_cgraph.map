@@ -1,0 +1,7 @@
+<map id="com.batteryworkshop.tests.ItemReparacionTest.deberiaCrearItemConPropiedadesBasicas" name="com.batteryworkshop.tests.ItemReparacionTest.deberiaCrearItemConPropiedadesBasicas">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,222,89"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#a09dd404b4a3367913fbcd78b035358bf" title="Gets the name of the item." alt="" coords="270,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,43,254,39,255,44,223,48"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#ab63cea20d74d647d7d6b49eebad9ae6e" title="Gets the price of the item." alt="" coords="270,72,466,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,72,255,76,254,81,222,77"/>
+</map>

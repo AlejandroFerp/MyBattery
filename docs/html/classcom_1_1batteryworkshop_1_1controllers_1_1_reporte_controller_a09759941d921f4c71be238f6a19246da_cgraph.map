@@ -1,0 +1,8 @@
+<map id="com.batteryworkshop.controllers.ReporteController.agregarItem" name="com.batteryworkshop.controllers.ReporteController.agregarItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,220,72"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="65,29,63,19,71,10,87,5,113,3,139,5,156,11,154,16,138,10,112,8,88,10,74,15,68,21,70,28"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a130c0bbdf01fee8f0ad1d0ddb0f88def" title=" " alt="" coords="268,29,464,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,48,252,48,252,53,220,53"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#a1686ee66157e5a585e344f1bcc8d4aa1" title="Sets the associated repair report." alt="" coords="512,29,708,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,48,496,48,496,53,464,53"/>
+</map>

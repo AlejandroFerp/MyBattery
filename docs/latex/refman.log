@@ -1,0 +1,2101 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.3)  3 MAY 2025 20:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./refman.tex
+(refman.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-03-26>
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count197
+\c@chapter=\count198
+\c@section=\count199
+\c@subsection=\count266
+\c@subsubsection=\count267
+\c@paragraph=\count268
+\c@subparagraph=\count269
+\c@figure=\count270
+\c@table=\count271
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen146
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Rollback for package 'array' requested -> date 2016-10-06.
+         Best approximation is the release introduced on 2016-10-06.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\array-2016-10-06.
+sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen147
+\extrarowheight=\dimen148
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+))
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+package info suppressed
+) (doxygen.sty
+Package: doxygen 
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2024/07/07 v2.0g defines alltt environment
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count272
+\calc@Bcount=\count273
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count274
+\calc@Cskip=\skip55
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks18
+\float@box=\box53
+\@float@everytoks=\toks19
+\@floatcapt=\box54
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read2
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip56
+\rownum=\count276
+) (longtable_doxygen.sty
+Package: longtable_doxygen 2014/10/28 v4.11 Multi-page Table package (DPC) - fr
+ozen version for doxygen
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count277
+\LTcapwidth=\dimen151
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@cols=\count278
+\LT@rows=\count279
+\c@LT@tables=\count280
+\c@LT@chunks=\count281
+\LT@p@ftn=\toks23
+) (tabu_doxygen.sty
+Package: tabu_doxygen 2011/02/26 v2.8 - flexible LaTeX tabulars (FC), frozen ve
+rsion for doxygen
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count282
+\@vwid@loff=\dimen152
+\@vwid@roff=\dimen153
+)
+\c@taburow=\count283
+\tabu@nbcols=\count284
+\tabu@cnt=\count285
+\tabu@Xcol=\count286
+\tabu@alloc=\count287
+\tabu@nested=\count288
+\tabu@target=\dimen154
+\tabu@spreadtarget=\dimen155
+\tabu@naturalX=\dimen156
+\tabucolX=\dimen157
+\tabu@Xsum=\dimen158
+\extrarowdepth=\dimen159
+\abovetabulinesep=\dimen160
+\belowtabulinesep=\dimen161
+\tabustrutrule=\dimen162
+\tabu@thebody=\toks24
+\tabu@footnotes=\toks25
+\tabu@box=\box60
+\tabu@arstrutbox=\box61
+\tabu@hleads=\box62
+\tabu@vleads=\box63
+\tabu@cellskip=\skip61
+) (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+\FV@CodeLineNo=\count289
+\FV@InFile=\read3
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count290
+\FV@StepNumber=\count291
+\FV@OutFile=\write3
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count292
+\TX@ftn=\toks27
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count293
+\mult@box=\box65
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count294
+\c@collectmore=\count295
+\doublecol@number=\count296
+\multicoltolerance=\count297
+\multicolpretolerance=\count298
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
+\multicolsep=\skip62
+\multicolbaselineskip=\skip63
+\partial@page=\box66
+\last@line=\box67
+\mc@boxedresult=\box68
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@firstbox=\box71
+\mult@gfirstbox=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\c@minrows=\count299
+\c@columnbadness=\count300
+\c@finalcolumnbadness=\count301
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box109
+\colbreak@box=\box110
+\mc@col@check@num=\count302
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip64
+\multirow@cntb=\count303
+\multirow@dima=\skip65
+\bigstrutjot=\dimen177
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hanging\hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip66
+\h@ngfstopwd=\skip67
+\h@ngquotewd=\skip68
+\h@ngdquotewd=\skip69
+\h@ngquerywd=\skip70
+\h@ngexclwd=\skip71
+\h@ngcolonwd=\skip72
+\h@ngscolonwd=\skip73
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+)
+\XKV@depth=\count304
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box111
+)
+\tc@llx=\dimen180
+\tc@lly=\dimen181
+\tc@urx=\dimen182
+\tc@ury=\dimen183
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen184
+\adjbox@Height=\dimen185
+\adjbox@Depth=\dimen186
+\adjbox@Totalheight=\dimen187
+\adjbox@pwidth=\dimen188
+\adjbox@pheight=\dimen189
+\adjbox@pdepth=\dimen190
+\adjbox@ptotalheight=\dimen191
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count305
+)) (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks30
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine
+.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems
+.sty
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofite
+ms.tex
+\loi_cnt_foreach_nest=\count307
+\loi_nestcnt=\count308
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count309
+\@boxshift=\skip74
+\stack@tmplength=\skip75
+\temp@stkl=\skip76
+\@stackedboxwidth=\skip77
+\@addedbox=\box112
+\@anchorbox=\box113
+\@insetbox=\box114
+\se@backgroundbox=\box115
+\stackedbox=\box116
+\@centerbox=\box117
+\c@ROWcellindex@=\count310
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip78
+\enit@outerparindent=\dimen192
+\enit@toks=\toks31
+\enit@inbox=\box118
+\enit@count@id=\count311
+\enitdp@description=\count312
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/alphalph\alphalph.sty
+Package: alphalph 2019/12/09 v2.6 Convert numbers to letters (HO)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)) (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box119
+\UL@hyphenbox=\box120
+\UL@skip=\skip79
+\UL@hook=\toks32
+\UL@height=\dimen193
+\UL@pe=\count313
+\UL@pixel=\dimen194
+\ULC@box=\box121
+Package: ulem 2019/11/18
+\ULdepth=\dimen195
+)
+\xrefbox=\box122
+\xreflength=\skip80
+\CodeWidthChar=\skip81
+\CodeHeightChar=\skip82
+\DoxyCodeWidth=\skip83
+\c@DoxyEnumeratei=\count314
+\c@DoxyEnumerateii=\count315
+\c@DoxyEnumerateiii=\count316
+\c@DoxyEnumerateiv=\count317
+\c@DoxyEnumeratev=\count318
+\c@DoxyEnumeratevi=\count319
+\c@DoxyEnumeratevii=\count320
+\c@DoxyEnumerateviii=\count321
+\c@DoxyEnumerateix=\count322
+\c@DoxyEnumeratex=\count323
+\c@DoxyEnumeratexi=\count324
+\c@DoxyEnumeratexii=\count325
+\enitdp@DoxyEnumerate=\count326
+\enitdp@DoxyItemize=\count327
+\c@subsubsubsection=\count328
+\c@subsubsubsubsection=\count329
+\c@subsubsubsubsubsection=\count330
+\c@subsubsubsubsubsubsection=\count331
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count332
+\Gm@cntv=\count333
+\c@Gm@tempcnt=\count334
+\Gm@bindingoffset=\dimen196
+\Gm@wd@mp=\dimen197
+\Gm@odd@mp=\dimen198
+\Gm@even@mp=\dimen199
+\Gm@layoutwidth=\dimen256
+\Gm@layoutheight=\dimen257
+\Gm@layouthoffset=\dimen258
+\Gm@layoutvoffset=\dimen259
+\Gm@dimlist=\toks35
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
+ty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count335
+\cp@tempcnt=\count336
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip84
+\f@nch@offset@elh=\skip85
+\f@nch@offset@erh=\skip86
+\f@nch@offset@olh=\skip87
+\f@nch@offset@orh=\skip88
+\f@nch@offset@elf=\skip89
+\f@nch@offset@erf=\skip90
+\f@nch@offset@olf=\skip91
+\f@nch@offset@orf=\skip92
+\f@nch@height=\skip93
+\f@nch@footalignment=\skip94
+\f@nch@widthL=\skip95
+\f@nch@widthC=\skip96
+\f@nch@widthR=\skip97
+\@temptokenb=\toks36
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip98
+\bibsep=\skip99
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count337
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip100
+\cftbeforetoctitleskip=\skip101
+\cftaftertoctitleskip=\skip102
+\cftbeforepartskip=\skip103
+\cftpartnumwidth=\skip104
+\cftpartindent=\skip105
+\cftbeforechapskip=\skip106
+\cftchapindent=\skip107
+\cftchapnumwidth=\skip108
+\cftbeforesecskip=\skip109
+\cftsecindent=\skip110
+\cftsecnumwidth=\skip111
+\cftbeforesubsecskip=\skip112
+\cftsubsecindent=\skip113
+\cftsubsecnumwidth=\skip114
+\cftbeforesubsubsecskip=\skip115
+\cftsubsubsecindent=\skip116
+\cftsubsubsecnumwidth=\skip117
+\cftbeforeparaskip=\skip118
+\cftparaindent=\skip119
+\cftparanumwidth=\skip120
+\cftbeforesubparaskip=\skip121
+\cftsubparaindent=\skip122
+\cftsubparanumwidth=\skip123
+\cftbeforeloftitleskip=\skip124
+\cftafterloftitleskip=\skip125
+\cftbeforefigskip=\skip126
+\cftfigindent=\skip127
+\cftfignumwidth=\skip128
+\c@lofdepth=\count338
+\c@lotdepth=\count339
+\cftbeforelottitleskip=\skip129
+\cftafterlottitleskip=\skip130
+\cftbeforetabskip=\skip131
+\cfttabindent=\skip132
+\cfttabnumwidth=\skip133
+)
+\@indexfile=\write4
+\openout4 = `refman.idx'.
+
+
+Writing index file refman.idx
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/newunicodechar\newunico
+dechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count340
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen260
+\Hy@linkcounter=\count341
+\Hy@pagecounter=\count342
+ (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count343
+ (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing ON on input line 4175.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+\c@Hy@tempcnt=\count344
+ (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen261
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count345
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing ON on input line 6055.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count346
+\c@Item=\count347
+\c@Hfootnote=\count348
+)
+Package hyperref Info: Driver: hpdftex.
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+\Fld@listcount=\count349
+\c@bookmark@seq@number=\count350
+\Hy@SectionHShift=\skip134
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 187.
+Package hyperref Info: Option `unicode' set `true' on input line 187.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen264
+\captionmargin=\dimen265
+\caption@leftmargin=\dimen266
+\caption@rightmargin=\dimen267
+\caption@width=\dimen268
+\caption@indent=\dimen269
+\caption@parindent=\dimen270
+\caption@hangindent=\dimen271
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count351
+\c@continuedfloat=\count352
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen272
+\caption@adjustwidth@linewidth=\dimen273
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
+Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
+\Etoc@toctoks=\toks37
+\c@etoc@tocid=\count353
+\etoc@framed@titlebox=\box123
+\etoc@framed@contentsbox=\box124
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 20
+9.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 209.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count354
+) (refman.aux)
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen274
+\scratchbox=\box125
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen275
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks39
+)
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package backref Info: ** backref set up for natbib ** on input line 209.
+Package hyperref Info: Link coloring ON on input line 209.
+(refman.out) (refman.out)
+\@outlinefile=\write5
+\openout5 = `refman.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\Etoc@tf=\read4
+Package hyperref Info: Option `pageanchor' set `false' on input line 217.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 217.
+
+Package hyperref Info: Option `unicode' set `true' on input line 217.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 222.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 222.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 222
+.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 222
+.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
+2.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 224.
+
+
+[1
+
+
+{C:/Users/aleja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/alej
+a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+
+[2
+
+]
+\tf@toc=\write6
+\openout6 = `refman.toc'.
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 230.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 230.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 23
+0.
+ (C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 230.
+[1]
+
+[2]
+
+[3]
+
+[4
+
+]
+Package hyperref Info: Option `pageanchor' set `true' on input line 233.
+
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 235.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 235.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 235.
+(namespaces.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+)
+
+[1
+
+]
+
+[2
+
+]
+Chapter 2.
+(hierarchy.tex)
+
+[3]
+
+[4
+
+]
+Chapter 3.
+(annotated.tex)
+
+[5]
+
+[6
+
+]
+Chapter 4.
+(namespacecom_1_1batteryworkshop_1_1repositories.tex
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+1.
+
+(C:\Users\aleja\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 19.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 26.
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 32
+[][][]
+ []
+
+)
+
+[7]
+
+[8
+
+]
+Chapter 5.
+(classcom_1_1batteryworkshop_1_1models_1_1_battery.tex <./classcom_1_1batterywo
+rkshop_1_1models_1_1_battery__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery__coll__graph.pdf, id=753, 23
+8.8925pt x 469.755pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery__coll__graph.pdf Graphi
+c file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery__col
+l__graph.pdf  used on input line 15.
+(pdftex.def)             Requested size: 238.0pt x 467.99773pt.
+
+
+[9]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 22.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 22.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 22.
+
+
+[10]
+Underfull \hbox (badness 10000) detected at line 61
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 69.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 81.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 81.
+
+
+[11]
+Underfull \hbox (badness 10000) detected at line 114
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e
+1cb1e731_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb
+1e731_icgraph.pdf, id=829, 443.6575pt x 112.42pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d
+6e1cb1e731_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6
+e1cb1e731_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea
+9f0d5b28f65b7f1c18d6e1cb1e731_icgraph.pdf  used on input line 122.
+(pdftex.def)             Requested size: 350.0pt x 88.68732pt.
+
+Underfull \hbox (badness 10000) detected at line 135
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb74
+99a735f9_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a
+735f9_icgraph.pdf, id=837, 418.56375pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb
+7499a735f9_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7
+499a735f9_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery_aa06
+7efcc3782b7311a73cb7499a735f9_icgraph.pdf  used on input line 156.
+(pdftex.def)             Requested size: 350.0pt x 104.07509pt.
+
+
+[12]
+Underfull \hbox (badness 10000) detected at line 169
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d1
+90a22a13_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a
+22a13_icgraph.pdf, id=852, 429.605pt x 186.6975pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038
+d190a22a13_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d
+190a22a13_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d
+3a52347c8cfbdec0038d190a22a13_icgraph.pdf  used on input line 177.
+(pdftex.def)             Requested size: 350.0pt x 152.1044pt.
+
+Underfull \hbox (badness 10000) detected at line 190
+[][][]
+ []
+
+
+
+[13]
+Underfull \hbox (badness 10000) detected at line 203
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149
+589c4669_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149589
+c4669_icgraph.pdf, id=868, 418.56375pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d2901
+49589c4669_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d29014
+9589c4669_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b1
+4ea34bf8362d49d290149589c4669_icgraph.pdf  used on input line 211.
+(pdftex.def)             Requested size: 350.0pt x 104.07509pt.
+
+Underfull \hbox (badness 10000) detected at line 224
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e5
+0a0c3d29_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0
+c3d29_icgraph.pdf, id=877, 443.6575pt x 174.6525pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6
+e50a0c3d29_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e
+50a0c3d29_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_battery_a521
+b81ba01cfc401f0cec6e50a0c3d29_icgraph.pdf  used on input line 232.
+(pdftex.def)             Requested size: 350.0pt x 137.78207pt.
+
+
+[14]
+Underfull \hbox (badness 10000) detected at line 245
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 258
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 271
+[][][]
+ []
+
+
+
+[15])
+(interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository.tex <./
+interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__inherit
+__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__inheri
+t__graph.pdf, id=899, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__i
+nherit__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__in
+herit__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_ba
+ttery_repository__inherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+
+
+[16] <./interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository_
+_coll__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__coll__
+graph.pdf, id=920, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__c
+oll__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository__co
+ll__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_ba
+ttery_repository__coll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+)
+(classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.tex
+
+[17] <./classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test__coll__graph
+.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test__coll__graph.pdf, i
+d=943, 223.83624pt x 244.915pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test__coll__graph.p
+df Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test__coll__graph.pd
+f>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_
+test__coll__graph.pdf  used on input line 15.
+(pdftex.def)             Requested size: 223.0pt x 244.00626pt.
+ <./classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6
+000b03a89a32831fa_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6000
+b03a89a32831fa_cgraph.pdf, id=965, 443.6575pt x 162.6075pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5
+a6000b03a89a32831fa_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a
+6000b03a89a32831fa_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_
+test_a8057218461ea5a6000b03a89a32831fa_cgraph.pdf  used on input line 54.
+(pdftex.def)             Requested size: 350.0pt x 128.27986pt.
+
+
+[18] <./classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f6
+2007bc6a4d9c57d84a775_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6
+a4d9c57d84a775_cgraph.pdf, id=987, 429.605pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f620
+07bc6a4d9c57d84a775_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f6200
+7bc6a4d9c57d84a775_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_
+test_ab8dd974f7f62007bc6a4d9c57d84a775_cgraph.pdf  used on input line 87.
+(pdftex.def)             Requested size: 350.0pt x 101.40294pt.
+
+
+[19]
+
+[20] <./classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301f
+d1824cb20a4b898d1b772_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb
+20a4b898d1b772_cgraph.pdf, id=1010, 418.56375pt x 262.9825pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1
+824cb20a4b898d1b772_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd18
+24cb20a4b898d1b772_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_
+test_a732b07d301fd1824cb20a4b898d1b772_cgraph.pdf  used on input line 120.
+(pdftex.def)             Requested size: 350.0pt x 219.90057pt.
+)
+(classcom_1_1batteryworkshop_1_1_battery_workshop_application.tex <./classcom_1
+_1batteryworkshop_1_1_battery_workshop_application__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1_battery_workshop_application__coll__graph.pdf,
+ id=1018, 216.81pt x 156.585pt>
+File: classcom_1_1batteryworkshop_1_1_battery_workshop_application__coll__graph
+.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1_battery_workshop_application__coll__graph.
+pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1_battery_workshop_appli
+cation__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 216.0pt x 156.00879pt.
+
+
+[21]) (classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.tex <./classco
+m_1_1batteryworkshop_1_1models_1_1_item_reparacion__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion__coll__graph.pdf, id
+=1041, 228.855pt x 381.425pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion__coll__graph.pd
+f Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion__coll__graph.pdf
+>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion__coll__graph.pdf  used on input line 15.
+(pdftex.def)             Requested size: 228.0pt x 380.0156pt.
+
+
+[22]
+
+[23]
+Underfull \hbox (badness 10000) detected at line 54
+[][][]
+ []
+
+
+
+[24]
+Underfull \hbox (badness 10000) detected at line 124
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11
+cc014efc659e31e5_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc0
+14efc659e31e5_cgraph.pdf, id=1106, 421.575pt x 112.42pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f
+11cc014efc659e31e5_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f1
+1cc014efc659e31e5_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion_a3adbfce5c4ca5f11cc014efc659e31e5_cgraph.pdf  used on input line 132.
+(pdftex.def)             Requested size: 350.0pt x 93.3343pt.
+
+Underfull \hbox (badness 10000) detected at line 145
+[][][]
+ []
+
+
+
+[25]
+Underfull \hbox (badness 10000) detected at line 158
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 171
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a336791
+3fbcd78b035358bf_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fb
+cd78b035358bf_icgraph.pdf, id=1123, 436.63126pt x 186.6975pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367
+913fbcd78b035358bf_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a33679
+13fbcd78b035358bf_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion_a09dd404b4a3367913fbcd78b035358bf_icgraph.pdf  used on input line 179.
+(pdftex.def)             Requested size: 350.0pt x 149.65446pt.
+
+Underfull \hbox (badness 10000) detected at line 192
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d
+7d6b49eebad9ae6e_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6
+b49eebad9ae6e_icgraph.pdf, id=1131, 427.5975pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d64
+7d7d6b49eebad9ae6e_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647
+d7d6b49eebad9ae6e_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion_ab63cea20d74d647d7d6b49eebad9ae6e_icgraph.pdf  used on input line 200.
+(pdftex.def)             Requested size: 350.0pt x 101.87773pt.
+
+
+[26]
+Underfull \hbox (badness 10000) detected at line 213
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288
+785da66ef36db1ce_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785
+da66ef36db1ce_icgraph.pdf, id=1147, 436.63126pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed92
+88785da66ef36db1ce_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed928
+8785da66ef36db1ce_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion_a3fb099de3aed9288785da66ef36db1ce_icgraph.pdf  used on input line 221.
+(pdftex.def)             Requested size: 350.0pt x 99.76964pt.
+
+Underfull \hbox (badness 10000) detected at line 234
+[][][]
+ []
+
+
+
+[27] <./classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e
+5a585e344f1bcc8d4aa1_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e3
+44f1bcc8d4aa1_icgraph.pdf, id=1164, 609.27625pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a
+585e344f1bcc8d4aa1_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a5
+85e344f1bcc8d4aa1_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
+ion_a1686ee66157e5a585e344f1bcc8d4aa1_icgraph.pdf  used on input line 272.
+(pdftex.def)             Requested size: 350.0pt x 74.96002pt.
+)
+(interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repository
+.tex <./interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_rep
+ository__inherit__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repository
+__inherit__graph.pdf, id=1172, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repos
+itory__inherit__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_reposi
+tory__inherit__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_it
+em_reparacion_repository__inherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+ <./interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_reposit
+ory__coll__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repository
+__coll__graph.pdf, id=1187, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_repos
+itory__coll__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_item_reparacion_reposi
+tory__coll__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_it
+em_reparacion_repository__coll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+
+
+[28]) (classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.tex <./cla
+sscom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test__coll__graph.pdf
+, id=1209, 221.82875pt x 184.69pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test__coll__grap
+h.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test__coll__graph
+.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparaci
+on_test__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 221.0pt x 183.99908pt.
+
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/pcr/m/n/8 void com.[]batteryworkshop.[]tests.[]Item[]Reparacion[]Test.[]deb
+eria[]Asociar[]Item[]Con[]Reporte[]Correctamente ()
+ []
+
+ <./classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a28fc56ad6d14
+91f8b4a9d171a214c898_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a28fc56ad6d1491f
+8b4a9d171a214c898_cgraph.pdf, id=1239, 436.63126pt x 262.9825pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a28fc56ad6d
+1491f8b4a9d171a214c898_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a28fc56ad6d1
+491f8b4a9d171a214c898_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparaci
+on_test_a28fc56ad6d1491f8b4a9d171a214c898_cgraph.pdf  used on input line 37.
+(pdftex.def)             Requested size: 350.0pt x 210.8036pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+\T1/pcr/m/n/8 void com.[]batteryworkshop.[]tests.[]Item[]Reparacion[]Test.[]deb
+eria[]Crear[]Item[]Con[]Propiedades[]Basicas ()
+ []
+
+ <./classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a3414749f712d
+d939c8907b257ab3ca64_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a3414749f712dd93
+9c8907b257ab3ca64_cgraph.pdf, id=1248, 427.5975pt x 162.6075pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a3414749f71
+2dd939c8907b257ab3ca64_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test_a3414749f712
+dd939c8907b257ab3ca64_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_item_reparaci
+on_test_a3414749f712dd939c8907b257ab3ca64_cgraph.pdf  used on input line 51.
+(pdftex.def)             Requested size: 350.0pt x 133.09833pt.
+) (classsteps_1_1_quality_control_steps.tex
+
+[30] <./classsteps_1_1_quality_control_steps__coll__graph.pdf>
+<classsteps_1_1_quality_control_steps__coll__graph.pdf, id=1263, 234.8775pt x 2
+24.84pt>
+File: classsteps_1_1_quality_control_steps__coll__graph.pdf Graphic file (type 
+pdf)
+<use classsteps_1_1_quality_control_steps__coll__graph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps__coll__graph.pdf 
+ used on input line 15.
+(pdftex.def)             Requested size: 234.0pt x 223.9989pt.
+
+
+[31] <./classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_
+cgraph.pdf>
+<classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_cgraph.
+pdf, id=1293, 224.84pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_cg
+raph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_cgr
+aph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f185
+8d9d0aece561e9a0_cgraph.pdf  used on input line 55.
+(pdftex.def)             Requested size: 224.0pt x 130.00533pt.
+ <./classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_icgr
+aph.pdf>
+<classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_icgraph
+.pdf, id=1301, 224.84pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_ic
+graph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_icg
+raph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f185
+8d9d0aece561e9a0_icgraph.pdf  used on input line 63.
+(pdftex.def)             Requested size: 224.0pt x 130.00533pt.
+ <./classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_cgra
+ph.pdf>
+<classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_cgraph.
+pdf, id=1309, 427.5975pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_cg
+raph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_cgr
+aph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_a9fcf895d87aebea6
+c9af8297e16d6a80_cgraph.pdf  used on input line 92.
+(pdftex.def)             Requested size: 350.0pt x 106.8073pt.
+
+
+[32] <./classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_
+icgraph.pdf>
+<classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_icgraph
+.pdf, id=1325, 242.9075pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_ic
+graph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_icg
+raph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_a9fcf895d87aebea6
+c9af8297e16d6a80_icgraph.pdf  used on input line 100.
+(pdftex.def)             Requested size: 242.0pt x 129.99934pt.
+ <./classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_cgra
+ph.pdf>
+<classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_cgraph.
+pdf, id=1333, 230.8625pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_cg
+raph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_cgr
+aph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_ae77c19a21e27bc4c
+b8d6c5d411eb5186_cgraph.pdf  used on input line 129.
+(pdftex.def)             Requested size: 230.0pt x 130.00134pt.
+
+
+[33] <./classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_
+icgraph.pdf>
+<classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_icgraph
+.pdf, id=1349, 230.8625pt x 130.4875pt>
+File: classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_ic
+graph.pdf Graphic file (type pdf)
+<use classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_icg
+raph.pdf>
+Package pdftex.def Info: classsteps_1_1_quality_control_steps_ae77c19a21e27bc4c
+b8d6c5d411eb5186_icgraph.pdf  used on input line 137.
+(pdftex.def)             Requested size: 230.0pt x 130.00134pt.
+) (classcom_1_1batteryworkshop_1_1models_1_1_repair_report.tex <./classcom_1_1b
+atteryworkshop_1_1models_1_1_repair_report__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report__coll__graph.pdf, id=1
+357, 247.92625pt x 369.38pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report__coll__graph.pdf 
+Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 247.0pt x 368.00383pt.
+
+
+[34]
+
+[35]
+Underfull \hbox (badness 10000) detected at line 76
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a9feb5b5571c1ac0997
+afe466adffc88b_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a9feb5b5571c1ac0997afe
+466adffc88b_cgraph.pdf, id=1436, 412.54124pt x 112.42pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a9feb5b5571c1ac09
+97afe466adffc88b_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a9feb5b5571c1ac099
+7afe466adffc88b_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a9feb5b5571c1ac0997afe466adffc88b_cgraph.pdf  used on input line 113.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+
+
+[36] <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee
+8f0ad1d0ddb0f88def_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f0ad1d
+0ddb0f88def_cgraph.pdf, id=1463, 412.54124pt x 112.42pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f
+0ad1d0ddb0f88def_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f0
+ad1d0ddb0f88def_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a130c0bbdf01fee8f0ad1d0ddb0f88def_cgraph.pdf  used on input line 142.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f0a
+d1d0ddb0f88def_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f0ad1d
+0ddb0f88def_icgraph.pdf, id=1471, 425.59pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f
+0ad1d0ddb0f88def_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a130c0bbdf01fee8f0
+ad1d0ddb0f88def_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a130c0bbdf01fee8f0ad1d0ddb0f88def_icgraph.pdf  used on input line 150.
+(pdftex.def)             Requested size: 350.0pt x 107.317pt.
+
+
+[37]
+Underfull \hbox (badness 10000) detected at line 161
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5a
+0c27b97f4f23b4_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5a0c2
+7b97f4f23b4_cgraph.pdf, id=1490, 442.65375pt x 112.42pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b
+5a0c27b97f4f23b4_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5
+a0c27b97f4f23b4_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a214cfd32024a6c4b5a0c27b97f4f23b4_cgraph.pdf  used on input line 169.
+(pdftex.def)             Requested size: 350.0pt x 88.89316pt.
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5a
+0c27b97f4f23b4_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5a0c2
+7b97f4f23b4_icgraph.pdf, id=1498, 458.71375pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b
+5a0c27b97f4f23b4_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a214cfd32024a6c4b5
+a0c27b97f4f23b4_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a214cfd32024a6c4b5a0c27b97f4f23b4_icgraph.pdf  used on input line 177.
+(pdftex.def)             Requested size: 350.0pt x 99.56773pt.
+
+Underfull \hbox (badness 10000) detected at line 188
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 199
+[][][]
+ []
+
+
+
+[38]
+Underfull \hbox (badness 10000) detected at line 210
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 221
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a0964d69614b9a0789c
+7d52cdf429f67d_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a0964d69614b9a0789c7d5
+2cdf429f67d_icgraph.pdf, id=1515, 436.63126pt x 124.465pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a0964d69614b9a078
+9c7d52cdf429f67d_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a0964d69614b9a0789
+c7d52cdf429f67d_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a0964d69614b9a0789c7d52cdf429f67d_icgraph.pdf  used on input line 229.
+(pdftex.def)             Requested size: 350.0pt x 99.76964pt.
+
+Underfull \hbox (badness 10000) detected at line 240
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 251
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 262
+[][][]
+ []
+
+
+
+[39]
+Underfull \hbox (badness 10000) detected at line 273
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 284
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 295
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 306
+[][][]
+ []
+
+
+
+[40]
+Underfull \hbox (badness 10000) detected at line 330
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_aeac7a405fac6c5e61e
+b906f08af2a6f6_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_aeac7a405fac6c5e61eb90
+6f08af2a6f6_icgraph.pdf, id=1536, 427.5975pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_aeac7a405fac6c5e6
+1eb906f08af2a6f6_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_aeac7a405fac6c5e61
+eb906f08af2a6f6_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_aeac7a405fac6c5e61eb906f08af2a6f6_icgraph.pdf  used on input line 338.
+(pdftex.def)             Requested size: 350.0pt x 106.8073pt.
+
+
+[41] <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a72332b862cf18b
+0aa64a19746d308adc_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a72332b862cf18b0aa64a1
+9746d308adc_icgraph.pdf, id=1553, 436.63126pt x 192.72pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a72332b862cf18b0a
+a64a19746d308adc_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_a72332b862cf18b0aa
+64a19746d308adc_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_a72332b862cf18b0aa64a19746d308adc_icgraph.pdf  used on input line 398.
+(pdftex.def)             Requested size: 350.0pt x 154.48203pt.
+
+
+[42]
+Underfull \hbox (badness 10000) detected at line 474
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1models_1_1_repair_report_ab8f42093c25a6bc578
+197c16e211d03b_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1models_1_1_repair_report_ab8f42093c25a6bc578197
+c16e211d03b_icgraph.pdf, id=1570, 642.4pt x 180.675pt>
+File: classcom_1_1batteryworkshop_1_1models_1_1_repair_report_ab8f42093c25a6bc5
+78197c16e211d03b_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1models_1_1_repair_report_ab8f42093c25a6bc57
+8197c16e211d03b_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1models_1_1_repair_repor
+t_ab8f42093c25a6bc578197c16e211d03b_icgraph.pdf  used on input line 482.
+(pdftex.def)             Requested size: 350.0pt x 98.43971pt.
+
+
+[43]) (classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller.tex <.
+/classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller__coll__graph
+.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller__coll__graph
+.pdf, id=1586, 300.12125pt x 317.185pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller__coll__
+graph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller__coll__g
+raph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 299.0pt x 316.02747pt.
+
+Overfull \hbox (54.61557pt too wide) in paragraph at lines 16--18
+[][] \T1/phv/m/n/10 ([] reporte[]Repository, [] bateria[]Repository, []
+ []
+
+
+
+[44]
+Overfull \hbox (1.47571pt too wide) in paragraph at lines 1--1
+[]\T1/phv/m/sl/10 reporte[] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 68
+[][][]
+ []
+
+
+
+[45] <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a0975
+9941d921f4c71be238f6a19246da_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941d92
+1f4c71be238f6a19246da_cgraph.pdf, id=1640, 609.27625pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a097599
+41d921f4c71be238f6a19246da_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a0975994
+1d921f4c71be238f6a19246da_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a09759941d921f4c71be238f6a19246da_cgraph.pdf  used on input line 81
+.
+(pdftex.def)             Requested size: 350.0pt x 74.96002pt.
+ <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941
+d921f4c71be238f6a19246da_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a09759941d92
+1f4c71be238f6a19246da_icgraph.pdf, id=1648, 241.90375pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a097599
+41d921f4c71be238f6a19246da_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a0975994
+1d921f4c71be238f6a19246da_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a09759941d921f4c71be238f6a19246da_icgraph.pdf  used on input line 8
+9.
+(pdftex.def)             Requested size: 241.0pt x 130.00533pt.
+
+Overfull \hbox (1.47571pt too wide) in paragraph at lines 1--1
+[]\T1/phv/m/sl/10 bateria[] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 105
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569
+c8704ae517d21806195063f7_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569c87
+04ae517d21806195063f7_cgraph.pdf, id=1657, 425.59pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c95
+69c8704ae517d21806195063f7_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c956
+9c8704ae517d21806195063f7_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a3b3c9569c8704ae517d21806195063f7_cgraph.pdf  used on input line 11
+8.
+(pdftex.def)             Requested size: 350.0pt x 107.317pt.
+
+
+[46] <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c
+9569c8704ae517d21806195063f7_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c9569c87
+04ae517d21806195063f7_icgraph.pdf, id=1674, 241.90375pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c95
+69c8704ae517d21806195063f7_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a3b3c956
+9c8704ae517d21806195063f7_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a3b3c9569c8704ae517d21806195063f7_icgraph.pdf  used on input line 1
+26.
+(pdftex.def)             Requested size: 241.0pt x 130.00533pt.
+
+Overfull \hbox (1.47571pt too wide) in paragraph at lines 1--1
+[]\T1/phv/m/sl/10 reporte[] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 142
+[][][]
+ []
+
+ <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db
+27854812923b1395666433e0_cgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db278
+54812923b1395666433e0_cgraph.pdf, id=1682, 642.4pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899
+db27854812923b1395666433e0_cgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899d
+b27854812923b1395666433e0_cgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a079899db27854812923b1395666433e0_cgraph.pdf  used on input line 15
+5.
+(pdftex.def)             Requested size: 350.0pt x 71.09535pt.
+
+
+[47] <./classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a0798
+99db27854812923b1395666433e0_icgraph.pdf>
+<classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899db278
+54812923b1395666433e0_icgraph.pdf, id=1699, 244.915pt x 130.4875pt>
+File: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899
+db27854812923b1395666433e0_icgraph.pdf Graphic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller_a079899d
+b27854812923b1395666433e0_icgraph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1controllers_1_1_reporte
+_controller_a079899db27854812923b1395666433e0_icgraph.pdf  used on input line 1
+63.
+(pdftex.def)             Requested size: 244.0pt x 130.00333pt.
+)
+(interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository.tex <./
+interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__inherit
+__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__inheri
+t__graph.pdf, id=1707, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__i
+nherit__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__in
+herit__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_re
+porte_repository__inherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+
+
+[48] <./interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository_
+_coll__graph.pdf>
+<interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__coll__
+graph.pdf, id=1729, 238.8925pt x 244.915pt>
+File: interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__c
+oll__graph.pdf Graphic file (type pdf)
+<use interfacecom_1_1batteryworkshop_1_1repositories_1_1_reporte_repository__co
+ll__graph.pdf>
+Package pdftex.def Info: interfacecom_1_1batteryworkshop_1_1repositories_1_1_re
+porte_repository__coll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 238.0pt x 243.99878pt.
+) (classcom_1_1batteryworkshop_1_1tests_1_1_report_test.tex <./classcom_1_1batt
+eryworkshop_1_1tests_1_1_report_test__coll__graph.pdf>
+<classcom_1_1batteryworkshop_1_1tests_1_1_report_test__coll__graph.pdf, id=1744
+, 231.86626pt x 277.035pt>
+File: classcom_1_1batteryworkshop_1_1tests_1_1_report_test__coll__graph.pdf Gra
+phic file (type pdf)
+<use classcom_1_1batteryworkshop_1_1tests_1_1_report_test__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1batteryworkshop_1_1tests_1_1_report_test__
+coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 231.0pt x 276.0071pt.
+
+
+[49]) (classrunners_1_1_run_cucumber_test.tex <./classrunners_1_1_run_cucumber_
+test__coll__graph.pdf>
+<classrunners_1_1_run_cucumber_test__coll__graph.pdf, id=1768, 205.76875pt x 13
+2.495pt>
+File: classrunners_1_1_run_cucumber_test__coll__graph.pdf Graphic file (type pd
+f)
+<use classrunners_1_1_run_cucumber_test__coll__graph.pdf>
+Package pdftex.def Info: classrunners_1_1_run_cucumber_test__coll__graph.pdf  u
+sed on input line 10.
+(pdftex.def)             Requested size: 205.0pt x 132.00136pt.
+
+
+[50]) (classsteps_1_1_step_definitions.tex <./classsteps_1_1_step_definitions__
+coll__graph.pdf>
+<classsteps_1_1_step_definitions__coll__graph.pdf, id=1790, 256.96pt x 413.545p
+t>
+File: classsteps_1_1_step_definitions__coll__graph.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions__coll__graph.pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions__coll__graph.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 256.0pt x 412.02953pt.
+
+
+[51] <./classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_cgrap
+h.pdf>
+<classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_cgraph.pdf, 
+id=1819, 222.8325pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9
+a6cd08c029e_cgraph.pdf  used on input line 58.
+(pdftex.def)             Requested size: 222.0pt x 130.00134pt.
+ <./classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_icgraph.p
+df>
+<classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_icgraph.pdf,
+ id=1827, 222.8325pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9a6cd08c029e_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a4cc4a8cfba05f6e300fc9
+a6cd08c029e_icgraph.pdf  used on input line 66.
+(pdftex.def)             Requested size: 222.0pt x 130.00134pt.
+
+
+[52] <./classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_cgrap
+h.pdf>
+<classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_cgraph.pdf, 
+id=1851, 247.92625pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f
+0719b3f989e_cgraph.pdf  used on input line 87.
+(pdftex.def)             Requested size: 247.0pt x 142.00146pt.
+ <./classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_icgraph.p
+df>
+<classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_icgraph.pdf,
+ id=1859, 247.92625pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f0719b3f989e_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a06c074a8ca2e783ee509f
+0719b3f989e_icgraph.pdf  used on input line 95.
+(pdftex.def)             Requested size: 247.0pt x 142.00146pt.
+
+
+[53] <./classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_cgrap
+h.pdf>
+<classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_cgraph.pdf, 
+id=1879, 212.795pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e9
+9941dff9ede_cgraph.pdf  used on input line 116.
+(pdftex.def)             Requested size: 212.0pt x 142.00798pt.
+ <./classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_icgraph.p
+df>
+<classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_icgraph.pdf,
+ id=1887, 212.795pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e99941dff9ede_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_ac0d227fe631cb839eb3e9
+9941dff9ede_icgraph.pdf  used on input line 124.
+(pdftex.def)             Requested size: 212.0pt x 142.00798pt.
+ <./classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_cgraph.pd
+f>
+<classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_cgraph.pdf, 
+id=1895, 202.7575pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974
+f8842719764_cgraph.pdf  used on input line 145.
+(pdftex.def)             Requested size: 202.0pt x 130.00333pt.
+
+
+[54] <./classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_icgra
+ph.pdf>
+<classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_icgraph.pdf,
+ id=1912, 202.7575pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974f8842719764_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a271b6b19f58f6cbe25974
+f8842719764_icgraph.pdf  used on input line 153.
+(pdftex.def)             Requested size: 202.0pt x 130.00333pt.
+ <./classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_cgraph.pd
+f>
+<classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_cgraph.pdf, 
+id=1920, 241.90375pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05
+dc19b6dc845_cgraph.pdf  used on input line 167.
+(pdftex.def)             Requested size: 241.0pt x 130.00533pt.
+ <./classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_icgraph.p
+df>
+<classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_icgraph.pdf,
+ id=1928, 241.90375pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05dc19b6dc845_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a9b2cec4ef7aeb5eacdf05
+dc19b6dc845_icgraph.pdf  used on input line 175.
+(pdftex.def)             Requested size: 241.0pt x 130.00533pt.
+
+
+[55] <./classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_cgrap
+h.pdf>
+<classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_cgraph.pdf, 
+id=1945, 200.75pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33
+dd103b1550d_cgraph.pdf  used on input line 196.
+(pdftex.def)             Requested size: 200.0pt x 130.00931pt.
+ <./classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_icgraph.p
+df>
+<classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_icgraph.pdf,
+ id=1953, 200.75pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33dd103b1550d_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a1d4bb7f127a6b7747ee33
+dd103b1550d_icgraph.pdf  used on input line 204.
+(pdftex.def)             Requested size: 200.0pt x 130.00931pt.
+
+
+[56] <./classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_cgrap
+h.pdf>
+<classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_cgraph.pdf, 
+id=1970, 223.83624pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_aa70b712670f257e101a58
+e68946c063c_cgraph.pdf  used on input line 225.
+(pdftex.def)             Requested size: 223.0pt x 130.00333pt.
+ <./classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_icgraph.p
+df>
+<classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_icgraph.pdf,
+ id=1978, 223.83624pt x 130.4875pt>
+File: classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_aa70b712670f257e101a58e68946c063c_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_aa70b712670f257e101a58
+e68946c063c_icgraph.pdf  used on input line 233.
+(pdftex.def)             Requested size: 223.0pt x 130.00333pt.
+ <./classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_cgraph.pd
+f>
+<classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_cgraph.pdf, 
+id=1986, 219.82124pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_cgraph.
+pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_cgraph.p
+df>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081
+ee9bbad8cee_cgraph.pdf  used on input line 254.
+(pdftex.def)             Requested size: 219.0pt x 142.00363pt.
+
+
+[57] <./classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_icgra
+ph.pdf>
+<classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_icgraph.pdf,
+ id=2003, 219.82124pt x 142.5325pt>
+File: classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_icgraph
+.pdf Graphic file (type pdf)
+<use classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081ee9bbad8cee_icgraph.
+pdf>
+Package pdftex.def Info: classsteps_1_1_step_definitions_a70b83dcd7d59db90bf081
+ee9bbad8cee_icgraph.pdf  used on input line 262.
+(pdftex.def)             Requested size: 219.0pt x 142.00363pt.
+)
+
+[58]
+No file refman.ind.
+(refman.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-03-26>
+ ***********
+Package rerunfilecheck Info: File `refman.out' has not changed.
+(rerunfilecheck)             Checksum: 9B59292476B3BB829128737F543117DB;29105.
+ ) 
+Here is how much of TeX's memory you used:
+ 19472 strings out of 469959
+ 381857 string characters out of 5469835
+ 735127 words of memory out of 5000000
+ 45501 multiletter control sequences out of 15000+600000
+ 680767 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 101i,16n,117p,739b,749s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/aleja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><C:/Users/aleja/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb><C:/Users/aleja/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><C:/Users/aleja/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aleja/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/aleja/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/aleja/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/aleja/AppData/Local/Program
+s/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/aleja/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/aleja/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/aleja/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (64 pages, 1716849 bytes).
+PDF statistics:
+ 2152 PDF objects out of 2487 (max. 8388607)
+ 407 named destinations out of 1000 (max. 500000)
+ 1338 words of extra memory for PDF output out of 10000 (max. 10000000)
+

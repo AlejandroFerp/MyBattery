@@ -1,0 +1,11 @@
+<map id="com.batteryworkshop.tests.BatteryUnitTest.testCreateValidBattery" name="com.batteryworkshop.tests.BatteryUnitTest.testCreateValidBattery">
+<area shape="rect" id="Node000001" title="Prueba la creación exitosa de una batería con todos los campos válidos." alt="" coords="5,97,211,156"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1models_1_1_battery.html#aa067efcc3782b7311a73cb7499a735f9" title="Gets the base repair cost of the battery." alt="" coords="259,5,455,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,94,258,58,274,51,276,56,260,62,174,99"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1models_1_1_battery.html#ab7d3a52347c8cfbdec0038d190a22a13" title="Gets the battery description." alt="" coords="259,72,455,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,110,243,106,243,111,212,116"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a1b14ea34bf8362d49d290149589c4669" title="Gets the battery model." alt="" coords="259,139,455,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,138,243,142,243,147,211,143"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a521b81ba01cfc401f0cec6e50a0c3d29" title="Gets an immutable list of repair reports associated with this battery." alt="" coords="259,205,455,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="174,154,260,191,276,197,274,202,258,196,172,159"/>
+</map>

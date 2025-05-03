@@ -1,0 +1,7 @@
+<map id="com.batteryworkshop.models.ItemReparacion.getNombre" name="com.batteryworkshop.models.ItemReparacion.getNombre">
+<area shape="rect" id="Node000001" title="Gets the name of the item." alt="" coords="282,55,478,97"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a28fc56ad6d1491f8b4a9d171a214c898" title=" " alt="" coords="5,5,234,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,61,234,55,234,50,267,55"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a3414749f712dd939c8907b257ab3ca64" title=" " alt="" coords="11,88,228,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,97,229,103,228,97,266,91"/>
+</map>

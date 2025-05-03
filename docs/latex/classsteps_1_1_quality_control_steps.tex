@@ -1,0 +1,144 @@
+\doxysection{steps.\+Quality\+Control\+Steps Class Reference}
+\hypertarget{classsteps_1_1_quality_control_steps}{}\label{classsteps_1_1_quality_control_steps}\index{steps.QualityControlSteps@{steps.QualityControlSteps}}
+
+
+Step definitions for quality control scenarios in Cucumber.  
+
+
+
+
+Collaboration diagram for steps.\+Quality\+Control\+Steps\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{classsteps_1_1_quality_control_steps__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186}{una\+Bateria\+Con\+Parametros}} (float voltaje, float amperaje, int carga, int descarga)
+\begin{DoxyCompactList}\small\item\em Initializes a battery with specified parameters for testing. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80}{realizo\+El\+Control\+De\+Calidad}} (float voltaje, float amperaje, int carga, int descarga)
+\begin{DoxyCompactList}\small\item\em Performs the quality control test with specified parameters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0}{el\+Resultado\+De\+Calidad\+Debe\+Ser}} (String esperado)
+\begin{DoxyCompactList}\small\item\em Verifies the result of the quality control test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Step definitions for quality control scenarios in Cucumber. 
+
+Defines actions and validations to perform quality control processes on batteries using Gherkin scenarios. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0}\index{steps.QualityControlSteps@{steps.QualityControlSteps}!elResultadoDeCalidadDebeSer@{elResultadoDeCalidadDebeSer}}
+\index{elResultadoDeCalidadDebeSer@{elResultadoDeCalidadDebeSer}!steps.QualityControlSteps@{steps.QualityControlSteps}}
+\doxysubsubsection{\texorpdfstring{elResultadoDeCalidadDebeSer()}{elResultadoDeCalidadDebeSer()}}
+{\footnotesize\ttfamily \label{classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0} 
+void steps.\+Quality\+Control\+Steps.\+el\+Resultado\+De\+Calidad\+Debe\+Ser (\begin{DoxyParamCaption}\item[{String}]{esperado}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifies the result of the quality control test. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em esperado} & Expected result ("{}true"{} for passing, "{}false"{} for failing). \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{classsteps_1_1_quality_control_steps_a9f7b1f3bc8f9f1858d9d0aece561e9a0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80}\index{steps.QualityControlSteps@{steps.QualityControlSteps}!realizoElControlDeCalidad@{realizoElControlDeCalidad}}
+\index{realizoElControlDeCalidad@{realizoElControlDeCalidad}!steps.QualityControlSteps@{steps.QualityControlSteps}}
+\doxysubsubsection{\texorpdfstring{realizoElControlDeCalidad()}{realizoElControlDeCalidad()}}
+{\footnotesize\ttfamily \label{classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80} 
+void steps.\+Quality\+Control\+Steps.\+realizo\+El\+Control\+De\+Calidad (\begin{DoxyParamCaption}\item[{float}]{voltaje}{, }\item[{float}]{amperaje}{, }\item[{int}]{carga}{, }\item[{int}]{descarga}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Performs the quality control test with specified parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em voltaje} & Expected voltage to test against. \\
+\hline
+{\em amperaje} & Expected ampere rating to test against. \\
+\hline
+{\em carga} & Expected charging state (1 for true, 0 for false). \\
+\hline
+{\em descarga} & Expected discharging state (1 for true, 0 for false). \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{classsteps_1_1_quality_control_steps_a9fcf895d87aebea6c9af8297e16d6a80_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186}\index{steps.QualityControlSteps@{steps.QualityControlSteps}!unaBateriaConParametros@{unaBateriaConParametros}}
+\index{unaBateriaConParametros@{unaBateriaConParametros}!steps.QualityControlSteps@{steps.QualityControlSteps}}
+\doxysubsubsection{\texorpdfstring{unaBateriaConParametros()}{unaBateriaConParametros()}}
+{\footnotesize\ttfamily \label{classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186} 
+void steps.\+Quality\+Control\+Steps.\+una\+Bateria\+Con\+Parametros (\begin{DoxyParamCaption}\item[{float}]{voltaje}{, }\item[{float}]{amperaje}{, }\item[{int}]{carga}{, }\item[{int}]{descarga}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a battery with specified parameters for testing. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em voltaje} & Voltage of the battery. \\
+\hline
+{\em amperaje} & Ampere rating of the battery. \\
+\hline
+{\em carga} & Charging state of the battery (1 for true, 0 for false). \\
+\hline
+{\em descarga} & Discharging state of the battery (1 for true, 0 for false). \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classsteps_1_1_quality_control_steps_ae77c19a21e27bc4cb8d6c5d411eb5186_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/test/java/steps/Quality\+Control\+Steps.\+java\end{DoxyCompactItemize}
