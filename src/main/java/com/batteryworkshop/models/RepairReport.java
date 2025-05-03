@@ -117,7 +117,23 @@ public class RepairReport {
         this.total = TotalCalculator();
     }
 
-    public static boolean isQualityOk(Battery battery, BigDecimal voltaje, BigDecimal amperaje, boolean carga, boolean descarga) {
+    /**
+     * Verifies the quality of a battery using parameters such as voltage and amperage differences,
+     * and charging/discharging statuses.
+     *
+     * @param battery  The battery to verify.
+     * @param voltaje  Voltage to compare with battery's voltage.
+     * @param amperaje Amperage to compare with battery's amperage.
+     * @param carga    Expected charging status.
+     * @param descarga Expected discharging status.
+     * @return True if battery quality meets the defined criteria; false otherwise.
+     */
+    public static boolean isQualityOk(
+            Battery battery,
+            BigDecimal voltaje,
+            BigDecimal amperaje,
+            boolean carga,
+            boolean descarga) {
         if (battery == null || voltaje == null || amperaje == null
                 || battery.getVoltage() == null || battery.getAmpere() == null) {
             return false;
@@ -127,7 +143,6 @@ public class RepairReport {
         BigDecimal amperajeDiff = battery.getAmpere().subtract(amperaje).abs();
         BigDecimal margin = BigDecimal.valueOf(0.5); // Margen configurable
 
-
         return voltajeDiff.compareTo(margin) <= 0
                 && amperajeDiff.compareTo(margin) <= 0
                 && battery.isCharge() == carga
@@ -136,9 +151,9 @@ public class RepairReport {
 
     /**
      * Calculates total repair cost by adding battery base cost,
-     * repair items cost and extra costs if any.
+     * repair items cost, and extra costs if any.
      *
-     * @return Total cost of repair work in euros
+     * @return Total cost of the repair work in euros.
      */
     public BigDecimal TotalCalculator() {
         // Punto 1: Inicio del método
@@ -174,10 +189,10 @@ public class RepairReport {
     }
 
     /**
-     * Generates report summary in JSON format.
-     * Includes battery information, costs and repair items.
+     * Generates a JSON summary of the repair report.
+     * Includes battery information, costs, and repair items.
      *
-     * @return JSON string with report summary
+     * @return JSON string containing the repair report summary.
      */
     public String generateJsonSummary() {
         this.total = TotalCalculator();
@@ -192,9 +207,9 @@ public class RepairReport {
     }
 
     /**
-     * Generates JSON section for repair items
+     * Generates the JSON section for repair items.
      *
-     * @return JSON string with items details
+     * @return JSON string containing the details of repair items.
      */
     private String generateItemsJson() {
         if (items.isEmpty()) {
@@ -207,18 +222,18 @@ public class RepairReport {
     }
 
     /**
-     * Gets associated battery model
+     * Retrieves the associated battery's model.
      *
-     * @return Battery model or "unknown" if no battery associated
+     * @return Battery model as a string, or "desconocido" if battery is null.
      */
     private String getBatteryModel() {
         return battery != null ? battery.getModel() : "desconocido";
     }
 
     /**
-     * Gets base cost of associated battery
+     * Retrieves the base cost of the associated battery.
      *
-     * @return Battery base cost or ZERO if no battery associated
+     * @return Battery base cost as a BigDecimal, or ZERO if battery is null.
      */
     private BigDecimal getBatteryBaseCost() {
         return battery != null ? battery.getBaseCost() : BigDecimal.ZERO;
@@ -227,68 +242,82 @@ public class RepairReport {
     // Getters
 
     /**
-     * Gets report ID
+     * Retrieves the report ID.
+     *
+     * @return The unique report identifier as a Long.
      */
     public Long getId() {
         return id;
     }
 
     /**
-     * Gets current repair step
+     * Retrieves the current step in the repair process.
+     *
+     * @return The current repair step as an integer.
      */
     public int getCurrentStep() {
         return currentStep;
     }
 
     /**
-     * Gets repair status
+     * Retrieves the repair status.
+     *
+     * @return The current status of the repair as a string.
      */
     public String getStatus() {
         return status;
     }
 
     /**
-     * Gets customer approval status
+     * Checks whether the customer approved the repair process.
+     *
+     * @return True if customer approved the repair; false otherwise.
      */
     public boolean isCustomerApproved() {
         return customerApproved;
     }
 
     /**
-     * Gets extra costs
+     * Retrieves the additional costs incurred during the repair.
+     *
+     * @return Extra costs as a BigDecimal.
      */
     public BigDecimal getExtraCost() {
         return extraCost;
     }
 
     /**
-     * Gets total cost
+     * Retrieves the total repair cost.
+     *
+     * @return Total cost as a BigDecimal.
      */
     public BigDecimal getTotal() {
         return total;
     }
 
     /**
-     * Gets associated battery
+     * Retrieves the battery associated with the repair report.
+     *
+     * @return The associated Battery object.
      */
     public Battery getBattery() {
         return battery;
     }
 
     /**
-     * Gets immutable view of repair items list
+     * Retrieves an immutable view of the list of repair items.
      *
-     * @return Immutable list of repair items
+     * @return An unmodifiable list of repair items.
      */
     public List<ItemReparacion> getItems() {
         return Collections.unmodifiableList(items);
     }
 
     /**
-     * Adds new repair item
+     * Adds new repair item to the repair report.
      *
-     * @param item Item to add
-     * @throws IllegalArgumentException if item is null
+     * @param item The repair item to add.
+     * @throws IllegalArgumentException if item is null.
      */
     public void addItem(ItemReparacion item) {
         if (item == null) {
@@ -301,83 +330,108 @@ public class RepairReport {
     // Required setters
 
     /**
-     * Sets current repair step
+     * Updates the current step in the repair process.
+     *
+     * @param currentStep New step value to set.
      */
     public void setCurrentStep(int currentStep) {
         this.currentStep = currentStep;
     }
 
     /**
-     * Sets repair status
+     * Updates the repair status.
+     *
+     * @param status New status value to set.
      */
     public void setStatus(String status) {
         this.status = status;
     }
 
     /**
-     * Sets cancellation reason
+     * Updates the cancellation reason of the repair.
+     *
+     * @param reason The reason for cancellation.
      */
     public void setCancellationReason(String reason) {
         this.cancellationReason = reason;
     }
 
     /**
-     * Sets customer approval
+     * Updates the customer's approval status.
+     *
+     * @param approved True if customer approved; false otherwise.
      */
     public void setCustomerApproved(boolean approved) {
         this.customerApproved = approved;
     }
 
     /**
-     * Sets extra cost
+     * Updates the extra cost value for the repair.
+     *
+     * @param cost New extra cost as a BigDecimal.
      */
     public void setExtraCost(BigDecimal cost) {
         this.extraCost = cost;
     }
 
     /**
-     * Sets extra cost reason
+     * Updates the reason provided for additional repair costs.
+     *
+     * @param reason Reason for extra costs.
      */
     public void setExtraReason(String reason) {
         this.extraReason = reason;
     }
 
     /**
-     * Sets total cost
+     * Updates the total repair cost.
+     *
+     * @param total New total value to set as a BigDecimal.
      */
     public void setTotal(BigDecimal total) {
         this.total = total;
     }
 
     /**
-     * Gets repair status
+     * Retrieves the repair status.
+     *
+     * @return Repair status as a string.
      */
     public String getEstado() {
         return this.status;
     }
 
     /**
-     * Sets repair status
+     * Updates the repair status.
+     *
+     * @param newStatus New status value to update.
      */
     public void setEstado(String newStatus) {
         this.status = newStatus;
     }
 
     /**
-     * Sets current step
+     * Updates the current step in the repair process.
+     *
+     * @param currentStep New step value to set.
      */
     public void setPasoActual(int currentStep) {
         this.currentStep = currentStep;
     }
 
     /**
-     * Gets extra cost reason
+     * Retrieves the justification for extra repair costs.
+     *
+     * @return Reason for extra costs as a string.
      */
     public String getExtraReason() {
         return this.extraReason;
     }
+
     /**
-     * Gets cancellation reason
+     * Retrieves the reason for repair cancellation.
+     *
+     * @return Cancellation reason as a string.
      */
     public String getCancellationReason() {
         return cancellationReason;

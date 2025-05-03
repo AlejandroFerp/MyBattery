@@ -52,9 +52,27 @@ public class Battery {
      */
     @OneToMany(mappedBy = "battery", cascade = CascadeType.ALL)
     private final List<RepairReport> repairReports = new ArrayList<>();
+
+    /**
+     * @brief The ampere rating of the battery.
+     * @details This represents the electrical current capacity of the battery.
+     */
     private BigDecimal ampere;
+
+    /**
+     * @brief Indicates if the battery is in a charging state.
+     */
     private boolean charge;
+
+    /**
+     * @brief Indicates if the battery is in a discharging state.
+     */
     private boolean discharge;
+
+    /**
+     * @brief Voltage of the battery.
+     * @details Represents the electrical potential difference.
+     */
     private BigDecimal voltage;
 
     /**
@@ -137,34 +155,66 @@ public class Battery {
         return report;
     }
 
+    /**
+     * @param newAmpere The new value for the ampere of the battery.
+     * @brief Sets the ampere of the battery.
+     */
     public void setAmperaje(BigDecimal newAmpere) {
-        this.ampere=newAmpere;
+        this.ampere = newAmpere;
     }
 
+    /**
+     * @param carga The new charging state of the battery.
+     * @brief Sets the charging state of the battery.
+     */
     public void setCarga(boolean carga) {
-        this.charge=carga;
+        this.charge = carga;
     }
 
+    /**
+     * @param descarga The new discharging state of the battery.
+     * @brief Sets the discharging state of the battery.
+     */
     public void setDescarga(boolean descarga) {
-        this.discharge=descarga;
+        this.discharge = descarga;
     }
 
+    /**
+     * @param newVoltaje The new voltage of the battery.
+     * @brief Sets the voltage of the battery.
+     */
     public void setVoltaje(BigDecimal newVoltaje) {
-        this.voltage=newVoltaje;
+        this.voltage = newVoltaje;
     }
 
+    /**
+     * @return The voltage of the battery.
+     * @brief Gets the voltage of the battery.
+     */
     public BigDecimal getVoltage() {
         return voltage;
     }
 
+    /**
+     * @return The ampere rating of the battery.
+     * @brief Gets the ampere rating of the battery.
+     */
     public BigDecimal getAmpere() {
         return ampere;
     }
 
+    /**
+     * @return True if the battery is charging, otherwise false.
+     * @brief Checks if the battery is in a charging state.
+     */
     public boolean isCharge() {
         return charge;
     }
 
+    /**
+     * @return True if the battery is discharging, otherwise false.
+     * @brief Checks if the battery is in a discharging state.
+     */
     public boolean isDischarge() {
         return discharge;
     }
