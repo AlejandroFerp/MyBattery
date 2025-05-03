@@ -117,6 +117,23 @@ public class RepairReport {
         this.total = TotalCalculator();
     }
 
+    public static boolean isQualityOk(Battery battery, BigDecimal voltaje, BigDecimal amperaje, boolean carga, boolean descarga) {
+        if (battery == null || voltaje == null || amperaje == null
+                || battery.getVoltage() == null || battery.getAmpere() == null) {
+            return false;
+        }
+
+        BigDecimal voltajeDiff = battery.getVoltage().subtract(voltaje).abs();
+        BigDecimal amperajeDiff = battery.getAmpere().subtract(amperaje).abs();
+        BigDecimal margin = BigDecimal.valueOf(0.5); // Margen configurable
+
+
+        return voltajeDiff.compareTo(margin) <= 0
+                && amperajeDiff.compareTo(margin) <= 0
+                && battery.isCharge() == carga
+                && battery.isDischarge() == descarga;
+    }
+
     /**
      * Calculates total repair cost by adding battery base cost,
      * repair items cost and extra costs if any.

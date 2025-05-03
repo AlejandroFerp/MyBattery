@@ -52,6 +52,10 @@ public class Battery {
      */
     @OneToMany(mappedBy = "battery", cascade = CascadeType.ALL)
     private final List<RepairReport> repairReports = new ArrayList<>();
+    private BigDecimal ampere;
+    private boolean charge;
+    private boolean discharge;
+    private BigDecimal voltage;
 
     /**
      * @brief Protected no-args constructor required by JPA.
@@ -131,5 +135,37 @@ public class Battery {
         RepairReport report = new RepairReport(this);
         repairReports.add(report);
         return report;
+    }
+
+    public void setAmperaje(BigDecimal newAmpere) {
+        this.ampere=newAmpere;
+    }
+
+    public void setCarga(boolean carga) {
+        this.charge=carga;
+    }
+
+    public void setDescarga(boolean descarga) {
+        this.discharge=descarga;
+    }
+
+    public void setVoltaje(BigDecimal newVoltaje) {
+        this.voltage=newVoltaje;
+    }
+
+    public BigDecimal getVoltage() {
+        return voltage;
+    }
+
+    public BigDecimal getAmpere() {
+        return ampere;
+    }
+
+    public boolean isCharge() {
+        return charge;
+    }
+
+    public boolean isDischarge() {
+        return discharge;
     }
 }
