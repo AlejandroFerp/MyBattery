@@ -1,22 +1,39 @@
 \doxysection{com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test Class Reference}
 \hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test}{}\label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}}
+
+
+Pruebas unitarias para la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}.  
+
+
+
+
+Collaboration diagram for com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test__coll__graph}
+\end{center}
+\end{figure}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb20a4b898d1b772}{test\+Create\+Valid\+Battery}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prueba la creación exitosa de una batería con todos los campos válidos. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a11c14b98be3b4ece3ef1920b2f06b95f}{test\+Create\+Battery\+With\+Null\+Model}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prueba que se lance una excepción al crear una batería con modelo null. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a2035c1b100c8d4ccdfcb2b3528b9325b}{test\+Create\+Battery\+With\+Null\+Base\+Cost}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prueba que se lance una excepción al crear una batería con un coste base null. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6a4d9c57d84a775}{test\+Create\+Battery\+With\+Null\+Description}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prueba la creación de una batería con una descripción null. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6000b03a89a32831fa}{test\+Add\+Repair\+Report}} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Prueba la adición de reportes de reparación a una batería. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
-Pruebas unitarias para la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}. Verifican el correcto funcionamiento de la creación y gestión de objetos \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}. 
+Pruebas unitarias para la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}. 
+
+Verifican el correcto funcionamiento de la creación y gestión de objetos \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6000b03a89a32831fa}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testAddRepairReport@{testAddRepairReport}}
@@ -25,31 +42,85 @@ Pruebas unitarias para la clase \doxylink{classcom_1_1batteryworkshop_1_1models_
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6000b03a89a32831fa} 
 void com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test.\+test\+Add\+Repair\+Report (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Prueba la adición de reportes de reparación a una batería. \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a2035c1b100c8d4ccdfcb2b3528b9325b}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullBaseCost@{testCreateBatteryWithNullBaseCost}}
+
+
+Prueba la adición de reportes de reparación a una batería. 
+
+Verifica que al añadir reportes de reparación, se actualice correctamente la lista en la batería. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a8057218461ea5a6000b03a89a32831fa_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a2035c1b100c8d4ccdfcb2b3528b9325b}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullBaseCost@{testCreateBatteryWithNullBaseCost}}
 \index{testCreateBatteryWithNullBaseCost@{testCreateBatteryWithNullBaseCost}!com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}}
 \doxysubsubsection{\texorpdfstring{testCreateBatteryWithNullBaseCost()}{testCreateBatteryWithNullBaseCost()}}
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a2035c1b100c8d4ccdfcb2b3528b9325b} 
 void com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test.\+test\+Create\+Battery\+With\+Null\+Base\+Cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Prueba que se lance Illegal\+Argument\+Exception al crear una batería con coste base null. \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6a4d9c57d84a775}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullDescription@{testCreateBatteryWithNullDescription}}
+
+
+Prueba que se lance una excepción al crear una batería con un coste base null. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & Si el coste base es null.\\
+\hline
+\end{DoxyExceptions}
+Verifica que la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} valide correctamente el coste base durante su creación. \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6a4d9c57d84a775}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullDescription@{testCreateBatteryWithNullDescription}}
 \index{testCreateBatteryWithNullDescription@{testCreateBatteryWithNullDescription}!com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}}
 \doxysubsubsection{\texorpdfstring{testCreateBatteryWithNullDescription()}{testCreateBatteryWithNullDescription()}}
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6a4d9c57d84a775} 
 void com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test.\+test\+Create\+Battery\+With\+Null\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Prueba la creación de una batería con descripción null (permitido). \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a11c14b98be3b4ece3ef1920b2f06b95f}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullModel@{testCreateBatteryWithNullModel}}
+
+
+Prueba la creación de una batería con una descripción null. 
+
+Verifica que las descripciones nulas sean permitidas por la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_ab8dd974f7f62007bc6a4d9c57d84a775_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a11c14b98be3b4ece3ef1920b2f06b95f}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateBatteryWithNullModel@{testCreateBatteryWithNullModel}}
 \index{testCreateBatteryWithNullModel@{testCreateBatteryWithNullModel}!com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}}
 \doxysubsubsection{\texorpdfstring{testCreateBatteryWithNullModel()}{testCreateBatteryWithNullModel()}}
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a11c14b98be3b4ece3ef1920b2f06b95f} 
 void com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test.\+test\+Create\+Battery\+With\+Null\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Prueba que se lance Illegal\+Argument\+Exception al crear una batería con modelo null. \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb20a4b898d1b772}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateValidBattery@{testCreateValidBattery}}
+
+
+Prueba que se lance una excepción al crear una batería con modelo null. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & Si el modelo es null.\\
+\hline
+\end{DoxyExceptions}
+Verifica que la clase \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} valide correctamente el modelo durante su creación. \Hypertarget{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb20a4b898d1b772}\index{com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}!testCreateValidBattery@{testCreateValidBattery}}
 \index{testCreateValidBattery@{testCreateValidBattery}!com.batteryworkshop.tests.BatteryUnitTest@{com.batteryworkshop.tests.BatteryUnitTest}}
 \doxysubsubsection{\texorpdfstring{testCreateValidBattery()}{testCreateValidBattery()}}
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb20a4b898d1b772} 
 void com.\+batteryworkshop.\+tests.\+Battery\+Unit\+Test.\+test\+Create\+Valid\+Battery (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
 Prueba la creación exitosa de una batería con todos los campos válidos. 
+
+Verifica que el modelo, la descripción y el coste base se almacenen correctamente y que inicialmente no haya reportes asociados. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test_a732b07d301fd1824cb20a4b898d1b772_cgraph}
+\end{center}
+\end{figure}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 

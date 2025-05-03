@@ -112,9 +112,20 @@ $(function(){initNavTree('classcom_1_1batteryworkshop_1_1models_1_1_item_reparac
 
 <p>Repair item used during battery repairs.  
  <a href="#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for com.batteryworkshop.models.ItemReparacion:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion__coll__graph.png" border="0" usemap="#acom_8batteryworkshop_8models_8_item_reparacion_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8batteryworkshop_8models_8_item_reparacion_coll__map" id="acom_8batteryworkshop_8models_8_item_reparacion_coll__map">
+<area shape="rect" title="Repair item used during battery repairs." alt="" coords="5,5,202,405"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a462d463fa88edbfb1a378d374a907b14" id="r_a462d463fa88edbfb1a378d374a907b14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a462d463fa88edbfb1a378d374a907b14">ItemReparacion</a> (String nombre, BigDecimal precio)</td></tr>
+<tr class="memdesc:a462d463fa88edbfb1a378d374a907b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new repair item instance without an associated report.  <br /></td></tr>
+<tr class="separator:a462d463fa88edbfb1a378d374a907b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a695a05f33743ae0fa003726dcb73cd32" id="r_a695a05f33743ae0fa003726dcb73cd32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a695a05f33743ae0fa003726dcb73cd32">ItemReparacion</a> (String nombre, BigDecimal precio, <a class="el" href="classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html">RepairReport</a> reporte)</td></tr>
 <tr class="memdesc:a695a05f33743ae0fa003726dcb73cd32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new repair item instance.  <br /></td></tr>
 <tr class="separator:a695a05f33743ae0fa003726dcb73cd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,6 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab63cea20d74d647d7d6b49eebad9ae6e" id="r_ab63cea20d74d647d7d6b49eebad9ae6e"><td class="memItemLeft" align="right" valign="top">BigDecimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab63cea20d74d647d7d6b49eebad9ae6e">getPrecio</a> ()</td></tr>
 <tr class="memdesc:ab63cea20d74d647d7d6b49eebad9ae6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the price of the item.  <br /></td></tr>
 <tr class="separator:ab63cea20d74d647d7d6b49eebad9ae6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57cc9b537cbf2362cd33c7ab5f62eb81" id="r_a57cc9b537cbf2362cd33c7ab5f62eb81"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57cc9b537cbf2362cd33c7ab5f62eb81">getDescripcion</a> ()</td></tr>
+<tr class="memdesc:a57cc9b537cbf2362cd33c7ab5f62eb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the description of the item.  <br /></td></tr>
+<tr class="separator:a57cc9b537cbf2362cd33c7ab5f62eb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e9138ce0037944cb11946f97026408" id="r_a05e9138ce0037944cb11946f97026408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05e9138ce0037944cb11946f97026408">setDescripcion</a> (String descripcion)</td></tr>
+<tr class="memdesc:a05e9138ce0037944cb11946f97026408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the description of the item.  <br /></td></tr>
+<tr class="separator:a05e9138ce0037944cb11946f97026408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb099de3aed9288785da66ef36db1ce" id="r_a3fb099de3aed9288785da66ef36db1ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html">RepairReport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fb099de3aed9288785da66ef36db1ce">getReporte</a> ()</td></tr>
 <tr class="memdesc:a3fb099de3aed9288785da66ef36db1ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the associated repair report.  <br /></td></tr>
 <tr class="separator:a3fb099de3aed9288785da66ef36db1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,8 +168,52 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>Repair item used during battery repairs. </p>
 <p>Each item has an identifying name and price that contributes to the total report cost. Items can be components like BMS, casing or cells. </p><dl class="section since"><dt>Since</dt><dd>1.0 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a462d463fa88edbfb1a378d374a907b14" name="a462d463fa88edbfb1a378d374a907b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a462d463fa88edbfb1a378d374a907b14">&#9670;&#160;</a></span>ItemReparacion() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.batteryworkshop.models.ItemReparacion.ItemReparacion </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>nombre</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BigDecimal</td>          <td class="paramname"><span class="paramname"><em>precio</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new repair item instance without an associated report. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nombre</td><td>Name of the item (cannot be null or empty) </td></tr>
+    <tr><td class="paramname">precio</td><td>Price of the item (cannot be null or negative) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IllegalArgumentException</td><td>if nombre or precio parameters are invalid </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a695a05f33743ae0fa003726dcb73cd32" name="a695a05f33743ae0fa003726dcb73cd32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a695a05f33743ae0fa003726dcb73cd32">&#9670;&#160;</a></span>ItemReparacion()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a695a05f33743ae0fa003726dcb73cd32">&#9670;&#160;</a></span>ItemReparacion() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,13 +249,13 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">nombre</td><td>Name of the item (cannot be null or empty) </td></tr>
     <tr><td class="paramname">precio</td><td>Price of the item (cannot be null or negative) </td></tr>
-    <tr><td class="paramname">reporte</td><td>Associated repair report (cannot be null) </td></tr>
+    <tr><td class="paramname">reporte</td><td>Associated repair report (optional) </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">IllegalArgumentException</td><td>if any parameter is invalid </td></tr>
+    <tr><td class="paramname">IllegalArgumentException</td><td>if nombre or precio parameters are invalid </td></tr>
   </table>
   </dd>
 </dl>
@@ -233,6 +294,44 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if items have same ID, false otherwise </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5_cgraph.png" border="0" usemap="#aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5_cgraph" id="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3adbfce5c4ca5f11cc014efc659e31e5_cgraph">
+<area shape="rect" title="Checks if two repair items are equal." alt="" coords="5,5,202,48"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html#afef1a035e95f4cc887a46c8725932d77" title="Protected no&#45;args constructor required by JPA." alt="" coords="250,5,459,48"/>
+<area shape="poly" title=" " alt="" coords="202,24,234,24,234,29,202,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a57cc9b537cbf2362cd33c7ab5f62eb81" name="a57cc9b537cbf2362cd33c7ab5f62eb81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57cc9b537cbf2362cd33c7ab5f62eb81">&#9670;&#160;</a></span>getDescripcion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.batteryworkshop.models.ItemReparacion.getDescripcion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the description of the item. </p>
+<dl class="section return"><dt>Returns</dt><dd>Description of the repair item </dd></dl>
 
 </div>
 </div>
@@ -289,6 +388,18 @@ Protected Member Functions</h2></td></tr>
 
 <p>Gets the name of the item. </p>
 <dl class="section return"><dt>Returns</dt><dd>Name of the repair item </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf_icgraph.png" border="0" usemap="#aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf_icgraph" alt=""/></div>
+<map name="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf_icgraph" id="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a09dd404b4a3367913fbcd78b035358bf_icgraph">
+<area shape="rect" title="Gets the name of the item." alt="" coords="282,55,478,97"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a28fc56ad6d1491f8b4a9d171a214c898" title=" " alt="" coords="5,5,234,64"/>
+<area shape="poly" title=" " alt="" coords="266,61,234,55,234,50,267,55"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a3414749f712dd939c8907b257ab3ca64" title=" " alt="" coords="11,88,228,147"/>
+<area shape="poly" title=" " alt="" coords="266,97,229,103,228,97,266,91"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -317,6 +428,16 @@ Protected Member Functions</h2></td></tr>
 
 <p>Gets the price of the item. </p>
 <dl class="section return"><dt>Returns</dt><dd>Price of the repair item </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e_icgraph.png" border="0" usemap="#aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e_icgraph" alt=""/></div>
+<map name="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e_icgraph" id="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_ab63cea20d74d647d7d6b49eebad9ae6e_icgraph">
+<area shape="rect" title="Gets the price of the item." alt="" coords="270,13,466,56"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a3414749f712dd939c8907b257ab3ca64" title=" " alt="" coords="5,5,222,64"/>
+<area shape="poly" title=" " alt="" coords="254,37,222,37,222,32,254,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -345,6 +466,16 @@ Protected Member Functions</h2></td></tr>
 
 <p>Gets the associated repair report. </p>
 <dl class="section return"><dt>Returns</dt><dd>Associated repair report </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce_icgraph.png" border="0" usemap="#aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce_icgraph" alt=""/></div>
+<map name="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce_icgraph" id="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a3fb099de3aed9288785da66ef36db1ce_icgraph">
+<area shape="rect" title="Gets the associated repair report." alt="" coords="282,13,478,56"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html#a28fc56ad6d1491f8b4a9d171a214c898" title=" " alt="" coords="5,5,234,64"/>
+<area shape="poly" title=" " alt="" coords="266,37,234,37,234,32,266,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -373,6 +504,39 @@ Protected Member Functions</h2></td></tr>
 
 <p>Generates hash code for the repair item. </p>
 <dl class="section return"><dt>Returns</dt><dd>Hash code based on item ID </dd></dl>
+
+</div>
+</div>
+<a id="a05e9138ce0037944cb11946f97026408" name="a05e9138ce0037944cb11946f97026408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e9138ce0037944cb11946f97026408">&#9670;&#160;</a></span>setDescripcion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.batteryworkshop.models.ItemReparacion.setDescripcion </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>descripcion</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the description of the item. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descripcion</td><td>New description for the item </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -406,6 +570,19 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1_icgraph.png" border="0" usemap="#aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1_icgraph" id="aclasscom_1_1batteryworkshop_1_1models_1_1_item_reparacion_a1686ee66157e5a585e344f1bcc8d4aa1_icgraph">
+<area shape="rect" title="Sets the associated repair report." alt="" coords="512,29,708,72"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a130c0bbdf01fee8f0ad1d0ddb0f88def" title=" " alt="" coords="268,29,464,72"/>
+<area shape="poly" title=" " alt="" coords="497,53,465,53,465,48,497,48"/>
+<area shape="rect" href="classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller.html#a09759941d921f4c71be238f6a19246da" title=" " alt="" coords="5,29,220,72"/>
+<area shape="poly" title=" " alt="" coords="252,53,220,53,220,48,252,48"/>
+<area shape="poly" title=" " alt="" coords="154,16,138,10,112,8,88,10,74,15,68,21,70,28,65,29,63,19,71,10,87,5,113,3,139,5,156,11"/>
+</map>
+</div>
 
 </div>
 </div>

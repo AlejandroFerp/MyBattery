@@ -5,6 +5,16 @@
 \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} entity registered in the workshop system.  
 
 
+
+
+Collaboration diagram for com.\+batteryworkshop.\+models.\+Battery\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery__coll__graph}
+\end{center}
+\end{figure}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -21,7 +31,23 @@ Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_
 List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} $>$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29}{get\+Repair\+Reports}} ()
 \begin{DoxyCompactList}\small\item\em Gets an immutable list of repair reports associated with this battery. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb1e731}{add\+Repair\+Report}} ()
-\begin{DoxyCompactList}\small\item\em Creates and adds a new repair report to the battery. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Creates and adds a new repair report to the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a7db844d1c83184a4efd5ec591bc36af1}{set\+Amperaje}} (Big\+Decimal new\+Ampere)
+\begin{DoxyCompactList}\small\item\em Sets the ampere of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a154776bf4f3d7c3b457f30161fae1193}{set\+Carga}} (boolean carga)
+\begin{DoxyCompactList}\small\item\em Sets the charging state of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a6653e029a448c36374e6b8e7731508fc}{set\+Descarga}} (boolean descarga)
+\begin{DoxyCompactList}\small\item\em Sets the discharging state of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a110deebe0b82603b001f2f8f93b9417e}{set\+Voltaje}} (Big\+Decimal new\+Voltaje)
+\begin{DoxyCompactList}\small\item\em Sets the voltage of the battery. \end{DoxyCompactList}\item 
+Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a2659a9fce0298bc28bbf4d9d0a928982}{get\+Voltage}} ()
+\begin{DoxyCompactList}\small\item\em Gets the voltage of the battery. \end{DoxyCompactList}\item 
+Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_af25ecde0856184211013707b2b618486}{get\+Ampere}} ()
+\begin{DoxyCompactList}\small\item\em Gets the ampere rating of the battery. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a001ac000d239a0402b4ebce1d4a3d43b}{is\+Charge}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the battery is in a charging state. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_ae130fae222fbddc73519184b67641d61}{is\+Discharge}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the battery is in a discharging state. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -88,7 +114,28 @@ Creates and adds a new repair report to the battery.
 \begin{DoxyReturn}{Returns}
 The newly created and added repair report
 \end{DoxyReturn}
-Maintains bidirectional consistency of the relationship between \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} and \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}. \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getBaseCost@{getBaseCost}}
+Maintains bidirectional consistency of the relationship between \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} and \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1ea9f0d5b28f65b7f1c18d6e1cb1e731_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_af25ecde0856184211013707b2b618486}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getAmpere@{getAmpere}}
+\index{getAmpere@{getAmpere}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getAmpere()}{getAmpere()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_af25ecde0856184211013707b2b618486} 
+Big\+Decimal com.\+batteryworkshop.\+models.\+Battery.\+get\+Ampere (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the ampere rating of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The ampere rating of the battery. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getBaseCost@{getBaseCost}}
 \index{getBaseCost@{getBaseCost}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
 \doxysubsubsection{\texorpdfstring{getBaseCost()}{getBaseCost()}}
 {\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9} 
@@ -101,6 +148,14 @@ Gets the base repair cost of the battery.
 \begin{DoxyReturn}{Returns}
 The base repair cost 
 \end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery_aa067efcc3782b7311a73cb7499a735f9_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a22a13}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getDescription@{getDescription}}
 \index{getDescription@{getDescription}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
 \doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
@@ -114,6 +169,14 @@ Gets the battery description.
 \begin{DoxyReturn}{Returns}
 The battery description, can be null 
 \end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery_ab7d3a52347c8cfbdec0038d190a22a13_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a38b7b4b89efd5b8a840aa64fdb9d0397}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getId@{getId}}
 \index{getId@{getId}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
 \doxysubsubsection{\texorpdfstring{getId()}{getId()}}
@@ -140,6 +203,14 @@ Gets the battery model.
 \begin{DoxyReturn}{Returns}
 The battery model 
 \end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1b14ea34bf8362d49d290149589c4669_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getRepairReports@{getRepairReports}}
 \index{getRepairReports@{getRepairReports}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
 \doxysubsubsection{\texorpdfstring{getRepairReports()}{getRepairReports()}}
@@ -153,7 +224,114 @@ Gets an immutable list of repair reports associated with this battery.
 \begin{DoxyReturn}{Returns}
 Immutable list of repair reports
 \end{DoxyReturn}
-The returned list cannot be modified to maintain encapsulation. 
+The returned list cannot be modified to maintain encapsulation. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1batteryworkshop_1_1models_1_1_battery_a521b81ba01cfc401f0cec6e50a0c3d29_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a2659a9fce0298bc28bbf4d9d0a928982}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!getVoltage@{getVoltage}}
+\index{getVoltage@{getVoltage}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{getVoltage()}{getVoltage()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a2659a9fce0298bc28bbf4d9d0a928982} 
+Big\+Decimal com.\+batteryworkshop.\+models.\+Battery.\+get\+Voltage (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the voltage of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The voltage of the battery. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a001ac000d239a0402b4ebce1d4a3d43b}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!isCharge@{isCharge}}
+\index{isCharge@{isCharge}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{isCharge()}{isCharge()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a001ac000d239a0402b4ebce1d4a3d43b} 
+boolean com.\+batteryworkshop.\+models.\+Battery.\+is\+Charge (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if the battery is in a charging state. 
+
+\begin{DoxyReturn}{Returns}
+True if the battery is charging, otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_ae130fae222fbddc73519184b67641d61}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!isDischarge@{isDischarge}}
+\index{isDischarge@{isDischarge}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{isDischarge()}{isDischarge()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_ae130fae222fbddc73519184b67641d61} 
+boolean com.\+batteryworkshop.\+models.\+Battery.\+is\+Discharge (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if the battery is in a discharging state. 
+
+\begin{DoxyReturn}{Returns}
+True if the battery is discharging, otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a7db844d1c83184a4efd5ec591bc36af1}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!setAmperaje@{setAmperaje}}
+\index{setAmperaje@{setAmperaje}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{setAmperaje()}{setAmperaje()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a7db844d1c83184a4efd5ec591bc36af1} 
+void com.\+batteryworkshop.\+models.\+Battery.\+set\+Amperaje (\begin{DoxyParamCaption}\item[{Big\+Decimal}]{new\+Ampere}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the ampere of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Ampere} & The new value for the ampere of the battery. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a154776bf4f3d7c3b457f30161fae1193}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!setCarga@{setCarga}}
+\index{setCarga@{setCarga}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{setCarga()}{setCarga()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a154776bf4f3d7c3b457f30161fae1193} 
+void com.\+batteryworkshop.\+models.\+Battery.\+set\+Carga (\begin{DoxyParamCaption}\item[{boolean}]{carga}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the charging state of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em carga} & The new charging state of the battery. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a6653e029a448c36374e6b8e7731508fc}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!setDescarga@{setDescarga}}
+\index{setDescarga@{setDescarga}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{setDescarga()}{setDescarga()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a6653e029a448c36374e6b8e7731508fc} 
+void com.\+batteryworkshop.\+models.\+Battery.\+set\+Descarga (\begin{DoxyParamCaption}\item[{boolean}]{descarga}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the discharging state of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em descarga} & The new discharging state of the battery. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a110deebe0b82603b001f2f8f93b9417e}\index{com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}!setVoltaje@{setVoltaje}}
+\index{setVoltaje@{setVoltaje}!com.batteryworkshop.models.Battery@{com.batteryworkshop.models.Battery}}
+\doxysubsubsection{\texorpdfstring{setVoltaje()}{setVoltaje()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a110deebe0b82603b001f2f8f93b9417e} 
+void com.\+batteryworkshop.\+models.\+Battery.\+set\+Voltaje (\begin{DoxyParamCaption}\item[{Big\+Decimal}]{new\+Voltaje}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the voltage of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Voltaje} & The new voltage of the battery. \\
+\hline
+\end{DoxyParams}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 

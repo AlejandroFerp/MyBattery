@@ -23,5 +23,6 @@ var classcom_1_1batteryworkshop_1_1models_1_1_repair_report =
     [ "setExtraReason", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a6fca07f688e91e16eceee6ea18264ce2", null ],
     [ "setPasoActual", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a839e01e3f907c5b4ac3c60db39bb6cab", null ],
     [ "setStatus", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a16eaa7666c7403307ec146e7775b1352", null ],
-    [ "setTotal", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aa3608da800be1248e75918707680fd4e", null ]
+    [ "setTotal", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#aa3608da800be1248e75918707680fd4e", null ],
+    [ "TotalCalculator", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#ab8f42093c25a6bc578197c16e211d03b", null ]
 ];

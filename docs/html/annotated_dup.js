@@ -18,9 +18,16 @@ var annotated_dup =
         [ "tests", null, [
           [ "BatteryUnitTest", "classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html", "classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test" ],
           [ "ItemReparacionTest", "classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html", "classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test" ],
-          [ "ReporteTest", "classcom_1_1batteryworkshop_1_1tests_1_1_reporte_test.html", null ]
+          [ "ReportTest", "classcom_1_1batteryworkshop_1_1tests_1_1_report_test.html", null ]
         ] ],
         [ "BatteryWorkshopApplication", "classcom_1_1batteryworkshop_1_1_battery_workshop_application.html", null ]
       ] ]
+    ] ],
+    [ "runners", null, [
+      [ "RunCucumberTest", "classrunners_1_1_run_cucumber_test.html", null ]
+    ] ],
+    [ "steps", null, [
+      [ "QualityControlSteps", "classsteps_1_1_quality_control_steps.html", "classsteps_1_1_quality_control_steps" ],
+      [ "StepDefinitions", "classsteps_1_1_step_definitions.html", "classsteps_1_1_step_definitions" ]
     ] ]
 ];
