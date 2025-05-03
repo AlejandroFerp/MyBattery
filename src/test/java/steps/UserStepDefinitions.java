@@ -1,6 +1,8 @@
 package steps;
 
 import com.batteryworkshop.models.User;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
@@ -51,5 +53,11 @@ public class UserStepDefinitions {
     @Entonces("se deniega el acceso")
     public void se_deniega_el_acceso() {
         assertFalse(accesoPermitido, "El acceso debería estar denegado");
+    }
+
+    @Given("el usuario está autenticado")
+    public void el_usuario_esta_autenticado() {
+        autenticado = usuario != null && usuario.login(usuario.getName(), usuario.getPassword());
+        assertTrue(autenticado, "El usuario debería estar autenticado");
     }
 }
