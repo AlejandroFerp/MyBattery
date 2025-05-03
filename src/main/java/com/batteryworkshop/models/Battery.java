@@ -74,6 +74,7 @@ public class Battery {
      * @details Represents the electrical potential difference.
      */
     private BigDecimal voltage;
+    private boolean completed;
 
     /**
      * @brief Protected no-args constructor required by JPA.
@@ -217,5 +218,13 @@ public class Battery {
      */
     public boolean isDischarge() {
         return discharge;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed=true;
+    }
+
+    public boolean isCompleted() {
+        return completed;
     }
 }
