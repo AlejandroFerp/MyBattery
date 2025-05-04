@@ -1,7 +1,7 @@
 var searchData=
 [
   ['setamperaje_0',['setAmperaje',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a7db844d1c83184a4efd5ec591bc36af1',1,'com::batteryworkshop::models::Battery']]],
-  ['setbatteries_1',['setBatteries',['../classcom_1_1batteryworkshop_1_1models_1_1_client.html#a3680d3c81a09bb4579b340e3d506b90a',1,'com::batteryworkshop::models::Client']]],
+  ['setbatteries_1',['setBatteries',['../classcom_1_1batteryworkshop_1_1models_1_1_client.html#a9fbd07b96141d1bdd395b89bac0a9f4e',1,'com::batteryworkshop::models::Client']]],
   ['setcancellationreason_2',['setCancellationReason',['../classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html#a1909938246552c2426779dfa6b90a01e',1,'com::batteryworkshop::models::RepairReport']]],
   ['setcarga_3',['setCarga',['../classcom_1_1batteryworkshop_1_1models_1_1_battery.html#a154776bf4f3d7c3b457f30161fae1193',1,'com::batteryworkshop::models::Battery']]],
   ['setclosedate_4',['setCloseDate',['../classcom_1_1batteryworkshop_1_1models_1_1_work_order.html#a78eb650438c842d51d0fc24c022efd80',1,'com::batteryworkshop::models::WorkOrder']]],

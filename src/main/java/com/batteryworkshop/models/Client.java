@@ -11,7 +11,7 @@ public class Client {
     /**
      * @brief List of batteries owned by the client.
      */
-    private List<String> batteries;
+    private List<Battery> batteries;
 
     /**
      * @param id    The ID of the client.
@@ -78,7 +78,7 @@ public class Client {
      * @return The list of batteries owned by the client.
      * @brief Gets the list of batteries owned by the client.
      */
-    public List<String> getBatteries() {
+    public List<Battery> getBatteries() {
         return batteries;
     }
 
@@ -86,7 +86,7 @@ public class Client {
      * @param battery The battery to add to the client's list.
      * @brief Adds a new battery to the client's list of batteries.
      */
-    public void addBattery(String battery) {
+    public void addBattery(Battery battery) {
         this.batteries.add(battery);
     }
 
@@ -94,7 +94,7 @@ public class Client {
      * @param batteries The list of batteries to set for the client.
      * @brief Sets the client's list of batteries.
      */
-    public void setBatteries(List<String> batteries) {
+    public void setBatteries(List<Battery> batteries) {
         this.batteries = batteries;
     }
 

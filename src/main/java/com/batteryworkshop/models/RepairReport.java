@@ -1,5 +1,6 @@
 package com.batteryworkshop.models;
 
+import com.batteryworkshop.repositories.Export;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;
@@ -16,7 +17,7 @@ import java.util.stream.Collectors;
  * @since 1.0
  */
 @Entity
-public class RepairReport {
+public class RepairReport implements Export {
     /**
      * Template for generating JSON report summary
      */
