@@ -3,6 +3,7 @@ var hierarchy =
     [ "com.batteryworkshop.models.Battery", "classcom_1_1batteryworkshop_1_1models_1_1_battery.html", null ],
     [ "com.batteryworkshop.tests.BatteryUnitTest", "classcom_1_1batteryworkshop_1_1tests_1_1_battery_unit_test.html", null ],
     [ "com.batteryworkshop.BatteryWorkshopApplication", "classcom_1_1batteryworkshop_1_1_battery_workshop_application.html", null ],
+    [ "com.batteryworkshop.models.Client", "classcom_1_1batteryworkshop_1_1models_1_1_client.html", null ],
     [ "com.batteryworkshop.models.ItemReparacion", "classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html", null ],
     [ "com.batteryworkshop.tests.ItemReparacionTest", "classcom_1_1batteryworkshop_1_1tests_1_1_item_reparacion_test.html", null ],
     [ "JpaRepository", null, [

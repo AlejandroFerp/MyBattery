@@ -7,6 +7,7 @@ var annotated_dup =
         ] ],
         [ "models", null, [
           [ "Battery", "classcom_1_1batteryworkshop_1_1models_1_1_battery.html", "classcom_1_1batteryworkshop_1_1models_1_1_battery" ],
+          [ "Client", "classcom_1_1batteryworkshop_1_1models_1_1_client.html", "classcom_1_1batteryworkshop_1_1models_1_1_client" ],
           [ "ItemReparacion", "classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html", "classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion" ],
           [ "RepairReport", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report" ],
           [ "User", "classcom_1_1batteryworkshop_1_1models_1_1_user.html", "classcom_1_1batteryworkshop_1_1models_1_1_user" ],
