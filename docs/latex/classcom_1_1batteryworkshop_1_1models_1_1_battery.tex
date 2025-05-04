@@ -47,7 +47,13 @@ Big\+Decimal \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_
 boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_a001ac000d239a0402b4ebce1d4a3d43b}{is\+Charge}} ()
 \begin{DoxyCompactList}\small\item\em Checks if the battery is in a charging state. \end{DoxyCompactList}\item 
 boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery_ae130fae222fbddc73519184b67641d61}{is\+Discharge}} ()
-\begin{DoxyCompactList}\small\item\em Checks if the battery is in a discharging state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Checks if the battery is in a discharging state. \end{DoxyCompactList}\item 
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a4681de9157ae6fe925d45728777db50f}\label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a4681de9157ae6fe925d45728777db50f} 
+void {\bfseries set\+Completed} (boolean completed)
+\item 
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1e2177df665b16eade2d9c57b34eff3d}\label{classcom_1_1batteryworkshop_1_1models_1_1_battery_a1e2177df665b16eade2d9c57b34eff3d} 
+boolean {\bfseries is\+Completed} ()
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -114,8 +120,7 @@ Creates and adds a new repair report to the battery.
 \begin{DoxyReturn}{Returns}
 The newly created and added repair report
 \end{DoxyReturn}
-Maintains bidirectional consistency of the relationship between \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} and \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}. Here is the caller graph for this function\+:
-\nopagebreak
+Maintains bidirectional consistency of the relationship between \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery} and \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_repair_report}{Repair\+Report}. Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -148,8 +153,7 @@ Gets the base repair cost of the battery.
 \begin{DoxyReturn}{Returns}
 The base repair cost 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -169,8 +173,7 @@ Gets the battery description.
 \begin{DoxyReturn}{Returns}
 The battery description, can be null 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -203,8 +206,7 @@ Gets the battery model.
 \begin{DoxyReturn}{Returns}
 The battery model 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -224,8 +226,7 @@ Gets an immutable list of repair reports associated with this battery.
 \begin{DoxyReturn}{Returns}
 Immutable list of repair reports
 \end{DoxyReturn}
-The returned list cannot be modified to maintain encapsulation. Here is the caller graph for this function\+:
-\nopagebreak
+The returned list cannot be modified to maintain encapsulation. Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode

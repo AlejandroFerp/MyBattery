@@ -15,5 +15,9 @@ var hierarchy =
     [ "com.batteryworkshop.controllers.ReporteController", "classcom_1_1batteryworkshop_1_1controllers_1_1_reporte_controller.html", null ],
     [ "com.batteryworkshop.tests.ReportTest", "classcom_1_1batteryworkshop_1_1tests_1_1_report_test.html", null ],
     [ "runners.RunCucumberTest", "classrunners_1_1_run_cucumber_test.html", null ],
-    [ "steps.StepDefinitions", "classsteps_1_1_step_definitions.html", null ]
+    [ "com.batteryworkshop.models.WorkOrder.Status", "enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status.html", null ],
+    [ "steps.StepDefinitions", "classsteps_1_1_step_definitions.html", null ],
+    [ "com.batteryworkshop.models.User", "classcom_1_1batteryworkshop_1_1models_1_1_user.html", null ],
+    [ "steps.UserStepDefinitions", "classsteps_1_1_user_step_definitions.html", null ],
+    [ "com.batteryworkshop.models.WorkOrder", "classcom_1_1batteryworkshop_1_1models_1_1_work_order.html", null ]
 ];

@@ -8,7 +8,9 @@ var annotated_dup =
         [ "models", null, [
           [ "Battery", "classcom_1_1batteryworkshop_1_1models_1_1_battery.html", "classcom_1_1batteryworkshop_1_1models_1_1_battery" ],
           [ "ItemReparacion", "classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion.html", "classcom_1_1batteryworkshop_1_1models_1_1_item_reparacion" ],
-          [ "RepairReport", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report" ]
+          [ "RepairReport", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report.html", "classcom_1_1batteryworkshop_1_1models_1_1_repair_report" ],
+          [ "User", "classcom_1_1batteryworkshop_1_1models_1_1_user.html", "classcom_1_1batteryworkshop_1_1models_1_1_user" ],
+          [ "WorkOrder", "classcom_1_1batteryworkshop_1_1models_1_1_work_order.html", "classcom_1_1batteryworkshop_1_1models_1_1_work_order" ]
         ] ],
         [ "repositories", "namespacecom_1_1batteryworkshop_1_1repositories.html", [
           [ "BatteryRepository", "interfacecom_1_1batteryworkshop_1_1repositories_1_1_battery_repository.html", null ],
@@ -28,6 +30,7 @@ var annotated_dup =
     ] ],
     [ "steps", null, [
       [ "QualityControlSteps", "classsteps_1_1_quality_control_steps.html", "classsteps_1_1_quality_control_steps" ],
-      [ "StepDefinitions", "classsteps_1_1_step_definitions.html", "classsteps_1_1_step_definitions" ]
+      [ "StepDefinitions", "classsteps_1_1_step_definitions.html", "classsteps_1_1_step_definitions" ],
+      [ "UserStepDefinitions", "classsteps_1_1_user_step_definitions.html", null ]
     ] ]
 ];

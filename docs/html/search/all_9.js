@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['main',['../classcom_1_1batteryworkshop_1_1_battery_workshop_application.html#a3327f8b465cda0eccdc9e4acae861e16',1,'com::batteryworkshop::BatteryWorkshopApplication']]]
+  ['login_0',['login',['../classcom_1_1batteryworkshop_1_1models_1_1_user.html#a9b6087bbd37ffb37a0c4d8d8656309d0',1,'com::batteryworkshop::models::User']]]
 ];
