@@ -1,3 +1,5 @@
 <map id="com.batteryworkshop.models.RepairReport" name="com.batteryworkshop.models.RepairReport">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,228,389"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,228,539"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1batteryworkshop_1_1repositories_1_1_export.html" title="Interface for exporting JSON data to a document." alt="" coords="12,5,222,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,121,120,155,114,155,114,121"/>
 </map>
