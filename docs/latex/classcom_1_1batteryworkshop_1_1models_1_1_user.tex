@@ -1,0 +1,147 @@
+\doxysection{com.\+batteryworkshop.\+models.\+User Class Reference}
+\hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user}{}\label{classcom_1_1batteryworkshop_1_1models_1_1_user}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+
+
+Represents a user in the system.  
+
+
+
+
+Collaboration diagram for com.\+batteryworkshop.\+models.\+User\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classcom_1_1batteryworkshop_1_1models_1_1_user__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_aa2dd04037643b729dd140b662d76d408}{User}} (String name, String password)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_user}{User} with a default role of "{}\+OPERATOR"{}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_adcd31d784f98f9878f2f0c0786e55021}{User}} (String name, String password, String role)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_user}{User} with a specified role. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_a9b6087bbd37ffb37a0c4d8d8656309d0}{login}} (String name, String password)
+\begin{DoxyCompactList}\small\item\em Authenticates the user by validating the name and password. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_a509b0915908dd8b1cc63b844b2196fe1}{has\+Permission}} (String permission)
+\begin{DoxyCompactList}\small\item\em Checks if the user has a specific permission. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_ae3365ff9f027333edbba544e5b522293}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the user. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_user_a664a4bf1b535de8fb921eebb5e0724c0}{get\+Password}} ()
+\begin{DoxyCompactList}\small\item\em Gets the password of the user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a user in the system. 
+
+This class manages user data, authentication, and permission checks. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_aa2dd04037643b729dd140b662d76d408}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!User@{User}}
+\index{User@{User}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_aa2dd04037643b729dd140b662d76d408} 
+com.\+batteryworkshop.\+models.\+User.\+User (\begin{DoxyParamCaption}\item[{String}]{name}{, }\item[{String}]{password}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_user}{User} with a default role of "{}\+OPERATOR"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the user. \\
+\hline
+{\em password} & The password of the user. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_adcd31d784f98f9878f2f0c0786e55021}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!User@{User}}
+\index{User@{User}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_adcd31d784f98f9878f2f0c0786e55021} 
+com.\+batteryworkshop.\+models.\+User.\+User (\begin{DoxyParamCaption}\item[{String}]{name}{, }\item[{String}]{password}{, }\item[{String}]{role}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a new \doxylink{classcom_1_1batteryworkshop_1_1models_1_1_user}{User} with a specified role. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the user. \\
+\hline
+{\em password} & The password of the user. \\
+\hline
+{\em role} & The role of the user. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_ae3365ff9f027333edbba544e5b522293}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!getName@{getName}}
+\index{getName@{getName}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_ae3365ff9f027333edbba544e5b522293} 
+String com.\+batteryworkshop.\+models.\+User.\+get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the name of the user. 
+
+\begin{DoxyReturn}{Returns}
+The name of the user. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_a664a4bf1b535de8fb921eebb5e0724c0}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!getPassword@{getPassword}}
+\index{getPassword@{getPassword}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{getPassword()}{getPassword()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_a664a4bf1b535de8fb921eebb5e0724c0} 
+String com.\+batteryworkshop.\+models.\+User.\+get\+Password (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the password of the user. 
+
+\begin{DoxyReturn}{Returns}
+The password of the user. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_a509b0915908dd8b1cc63b844b2196fe1}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!hasPermission@{hasPermission}}
+\index{hasPermission@{hasPermission}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{hasPermission()}{hasPermission()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_a509b0915908dd8b1cc63b844b2196fe1} 
+boolean com.\+batteryworkshop.\+models.\+User.\+has\+Permission (\begin{DoxyParamCaption}\item[{String}]{permission}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if the user has a specific permission. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em permission} & The permission to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the user has the specified permission, otherwise false. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_user_a9b6087bbd37ffb37a0c4d8d8656309d0}\index{com.batteryworkshop.models.User@{com.batteryworkshop.models.User}!login@{login}}
+\index{login@{login}!com.batteryworkshop.models.User@{com.batteryworkshop.models.User}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_user_a9b6087bbd37ffb37a0c4d8d8656309d0} 
+boolean com.\+batteryworkshop.\+models.\+User.\+login (\begin{DoxyParamCaption}\item[{String}]{name}{, }\item[{String}]{password}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Authenticates the user by validating the name and password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name to authenticate. \\
+\hline
+{\em password} & The password to authenticate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the name and password match, otherwise false. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/batteryworkshop/models/User.\+java\end{DoxyCompactItemize}

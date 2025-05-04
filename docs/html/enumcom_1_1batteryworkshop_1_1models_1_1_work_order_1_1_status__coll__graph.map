@@ -1,0 +1,3 @@
+<map id="com.batteryworkshop.models.WorkOrder.Status" name="com.batteryworkshop.models.WorkOrder.Status">
+<area shape="rect" id="Node000001" title="Enum representing the possible statuses of a work order." alt="" coords="5,5,191,155"/>
+</map>

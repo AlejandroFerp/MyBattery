@@ -1,0 +1,325 @@
+\doxysection{com.\+batteryworkshop.\+models.\+Work\+Order Class Reference}
+\hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order}{}\label{classcom_1_1batteryworkshop_1_1models_1_1_work_order}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+
+
+Represents a work order in the system.  
+
+
+
+
+Collaboration diagram for com.\+batteryworkshop.\+models.\+Work\+Order\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{classcom_1_1batteryworkshop_1_1models_1_1_work_order__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status}{Status}}
+\begin{DoxyCompactList}\small\item\em Enum representing the possible statuses of a work order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status}{Status}} \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0486d83507d91a1ff35b5131cdcf07b6}{get\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Gets the status of the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a9af3a728e37f8af270ccaf5f3d991732}{set\+Status}} (\mbox{\hyperlink{enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status}{Status}} status)
+\begin{DoxyCompactList}\small\item\em Sets the status of the work order. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_ad3933071ed717f2c37949416029ad249}{get\+Work\+Order\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the work order ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4d6cf28f0d89332c85d4cd43156bfca9}{set\+Work\+Order\+Id}} (int workorder\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Sets the work order ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_abae54c8bd3067b80f441a216761e24a1}{get\+User\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the user ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a65d85025cd15caf243af20a2f71e4afc}{set\+User\+Id}} (int user\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Sets the user ID associated with the work order. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4e57762ff5db2f391046d9d3744c0ac2}{get\+Description}} ()
+\begin{DoxyCompactList}\small\item\em Gets the description of the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aa4693529f1d550738735dc22549a6fa8}{set\+Description}} (String description)
+\begin{DoxyCompactList}\small\item\em Sets the description of the work order. \end{DoxyCompactList}\item 
+Date \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a1bd3a4482705705253e3b1cabd835d21}{get\+Open\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Gets the open date of the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4369b93a87f79937e4c8f4d291566df5}{set\+Open\+Date}} (Date open\+\_\+date)
+\begin{DoxyCompactList}\small\item\em Sets the open date of the work order. \end{DoxyCompactList}\item 
+Date \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a77ac92258cd6b8e267218ce9c6211f89}{get\+Close\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Gets the close date of the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a78eb650438c842d51d0fc24c022efd80}{set\+Close\+Date}} (Date close\+\_\+date)
+\begin{DoxyCompactList}\small\item\em Sets the close date of the work order. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a587c7aa6820e9e26e4c2ed484a39e01e}{get\+Batteries}} ()
+\begin{DoxyCompactList}\small\item\em Gets the batteries associated with the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0cfa1903a2e1139e3d2eab2017906e3a}{add\+Battery}} (@org.\+jetbrains.\+annotations.\+Not\+Null \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} battery)
+\begin{DoxyCompactList}\small\item\em Adds a battery to the work order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a13800299d0242ee8b67ab054c3a82ca2}{mark\+Battery\+As\+Completed}} (\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} battery)
+\begin{DoxyCompactList}\small\item\em Marks a specified battery as completed. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a744328b8935e5c936a01218c9aea0cb2}{get\+Completed\+Batteries}} ()
+\begin{DoxyCompactList}\small\item\em Gets all completed batteries. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aeac45c6c6003dcc66a3d38d4987e4053}{get\+Incomplete\+Batteries}} ()
+\begin{DoxyCompactList}\small\item\em Gets all incomplete batteries. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aae8a510053e14d0a4cc28f99334d3dd2}{remove\+Battery}} (\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} battery)
+\begin{DoxyCompactList}\small\item\em Removes a battery from the work order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a work order in the system. 
+
+A work order contains a list of batteries, user information, status, and important dates. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0cfa1903a2e1139e3d2eab2017906e3a}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!addBattery@{addBattery}}
+\index{addBattery@{addBattery}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{addBattery()}{addBattery()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0cfa1903a2e1139e3d2eab2017906e3a} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+add\+Battery (\begin{DoxyParamCaption}\item[{@org.\+jetbrains.\+annotations.\+Not\+Null \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}}}]{battery}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds a battery to the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em battery} & The battery to be added to the work order.\\
+\hline
+\end{DoxyParams}
+Newly added batteries are marked as incomplete by default. \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a587c7aa6820e9e26e4c2ed484a39e01e}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getBatteries@{getBatteries}}
+\index{getBatteries@{getBatteries}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getBatteries()}{getBatteries()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a587c7aa6820e9e26e4c2ed484a39e01e} 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Batteries (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the batteries associated with the work order. 
+
+\begin{DoxyReturn}{Returns}
+The list of batteries in the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a77ac92258cd6b8e267218ce9c6211f89}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getCloseDate@{getCloseDate}}
+\index{getCloseDate@{getCloseDate}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getCloseDate()}{getCloseDate()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a77ac92258cd6b8e267218ce9c6211f89} 
+Date com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Close\+Date (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the close date of the work order. 
+
+\begin{DoxyReturn}{Returns}
+The date the work order was closed. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a744328b8935e5c936a01218c9aea0cb2}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getCompletedBatteries@{getCompletedBatteries}}
+\index{getCompletedBatteries@{getCompletedBatteries}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getCompletedBatteries()}{getCompletedBatteries()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a744328b8935e5c936a01218c9aea0cb2} 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Completed\+Batteries (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets all completed batteries. 
+
+\begin{DoxyReturn}{Returns}
+A list of completed batteries in the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4e57762ff5db2f391046d9d3744c0ac2}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4e57762ff5db2f391046d9d3744c0ac2} 
+String com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the description of the work order. 
+
+\begin{DoxyReturn}{Returns}
+The description of the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aeac45c6c6003dcc66a3d38d4987e4053}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getIncompleteBatteries@{getIncompleteBatteries}}
+\index{getIncompleteBatteries@{getIncompleteBatteries}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getIncompleteBatteries()}{getIncompleteBatteries()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aeac45c6c6003dcc66a3d38d4987e4053} 
+List$<$ \mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}} $>$ com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Incomplete\+Batteries (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets all incomplete batteries. 
+
+\begin{DoxyReturn}{Returns}
+A list of incomplete batteries in the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a1bd3a4482705705253e3b1cabd835d21}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getOpenDate@{getOpenDate}}
+\index{getOpenDate@{getOpenDate}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getOpenDate()}{getOpenDate()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a1bd3a4482705705253e3b1cabd835d21} 
+Date com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Open\+Date (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the open date of the work order. 
+
+\begin{DoxyReturn}{Returns}
+The date the work order was opened. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0486d83507d91a1ff35b5131cdcf07b6}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a0486d83507d91a1ff35b5131cdcf07b6} 
+\mbox{\hyperlink{enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status}{Status}} com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the status of the work order. 
+
+\begin{DoxyReturn}{Returns}
+The current status of the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_abae54c8bd3067b80f441a216761e24a1}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getUserId@{getUserId}}
+\index{getUserId@{getUserId}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getUserId()}{getUserId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_abae54c8bd3067b80f441a216761e24a1} 
+int com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+User\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the user ID. 
+
+\begin{DoxyReturn}{Returns}
+The user ID associated with the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_ad3933071ed717f2c37949416029ad249}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!getWorkOrderId@{getWorkOrderId}}
+\index{getWorkOrderId@{getWorkOrderId}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{getWorkOrderId()}{getWorkOrderId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_ad3933071ed717f2c37949416029ad249} 
+int com.\+batteryworkshop.\+models.\+Work\+Order.\+get\+Work\+Order\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the work order ID. 
+
+\begin{DoxyReturn}{Returns}
+The ID of the work order. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a13800299d0242ee8b67ab054c3a82ca2}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!markBatteryAsCompleted@{markBatteryAsCompleted}}
+\index{markBatteryAsCompleted@{markBatteryAsCompleted}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{markBatteryAsCompleted()}{markBatteryAsCompleted()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a13800299d0242ee8b67ab054c3a82ca2} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+mark\+Battery\+As\+Completed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}}}]{battery}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Marks a specified battery as completed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em battery} & The battery to mark as completed.\\
+\hline
+\end{DoxyParams}
+Ensures the battery is part of the current work order before marking it as completed. \Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aae8a510053e14d0a4cc28f99334d3dd2}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!removeBattery@{removeBattery}}
+\index{removeBattery@{removeBattery}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{removeBattery()}{removeBattery()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aae8a510053e14d0a4cc28f99334d3dd2} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+remove\+Battery (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1batteryworkshop_1_1models_1_1_battery}{Battery}}}]{battery}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Removes a battery from the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em battery} & The battery to be removed from the work order. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a78eb650438c842d51d0fc24c022efd80}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setCloseDate@{setCloseDate}}
+\index{setCloseDate@{setCloseDate}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setCloseDate()}{setCloseDate()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a78eb650438c842d51d0fc24c022efd80} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+Close\+Date (\begin{DoxyParamCaption}\item[{Date}]{close\+\_\+date}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the close date of the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em close\+\_\+date} & The new close date of the work order. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aa4693529f1d550738735dc22549a6fa8}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setDescription@{setDescription}}
+\index{setDescription@{setDescription}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setDescription()}{setDescription()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_aa4693529f1d550738735dc22549a6fa8} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+Description (\begin{DoxyParamCaption}\item[{String}]{description}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the description of the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & The new description of the work order. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4369b93a87f79937e4c8f4d291566df5}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setOpenDate@{setOpenDate}}
+\index{setOpenDate@{setOpenDate}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setOpenDate()}{setOpenDate()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4369b93a87f79937e4c8f4d291566df5} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+Open\+Date (\begin{DoxyParamCaption}\item[{Date}]{open\+\_\+date}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the open date of the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em open\+\_\+date} & The new open date of the work order. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a9af3a728e37f8af270ccaf5f3d991732}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setStatus()}{setStatus()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a9af3a728e37f8af270ccaf5f3d991732} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumcom_1_1batteryworkshop_1_1models_1_1_work_order_1_1_status}{Status}}}]{status}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the status of the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & The new status of the work order. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a65d85025cd15caf243af20a2f71e4afc}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setUserId@{setUserId}}
+\index{setUserId@{setUserId}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setUserId()}{setUserId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a65d85025cd15caf243af20a2f71e4afc} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+User\+Id (\begin{DoxyParamCaption}\item[{int}]{user\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the user ID associated with the work order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+\_\+id} & The new user ID. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4d6cf28f0d89332c85d4cd43156bfca9}\index{com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}!setWorkOrderId@{setWorkOrderId}}
+\index{setWorkOrderId@{setWorkOrderId}!com.batteryworkshop.models.WorkOrder@{com.batteryworkshop.models.WorkOrder}}
+\doxysubsubsection{\texorpdfstring{setWorkOrderId()}{setWorkOrderId()}}
+{\footnotesize\ttfamily \label{classcom_1_1batteryworkshop_1_1models_1_1_work_order_a4d6cf28f0d89332c85d4cd43156bfca9} 
+void com.\+batteryworkshop.\+models.\+Work\+Order.\+set\+Work\+Order\+Id (\begin{DoxyParamCaption}\item[{int}]{workorder\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the work order ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em workorder\+\_\+id} & The new work order ID. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/batteryworkshop/models/Work\+Order.\+java\end{DoxyCompactItemize}
